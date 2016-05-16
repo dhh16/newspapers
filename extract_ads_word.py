@@ -73,11 +73,13 @@ if __name__ == "__main__":
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
+    ads_with_word = dict()
+    ads_infos = dict()
     for y_i, year in enumerate(years):
         print year
         ads = glob.glob(basepath + str(year) + '/*/*/extracted/*adver*.txt')
-        ads_with_word = get_word_counts(ads, word)
+        ads_with_word.update(get_word_counts(ads, word))
         print "counts", ads_with_word
-        ads_infos = get_info_for_items(ads)
+        ads_infos.update(get_info_for_items(ads))
         print "infos", ads_infos
 
