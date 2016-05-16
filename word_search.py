@@ -41,10 +41,10 @@ if __name__ == "__main__":
     for y_i, year in enumerate(years):
         articles = glob.glob(basepath + str(year) + '/*/*/extracted/*article*.txt')
         yearly_articles[y_i] = count_items_with_word(articles, word)
-        articles_sum+=1
+        articles_sum+=yearly_articles[y_i]
         ads = glob.glob(basepath + str(year) + '/*/*/extracted/*adver*.txt')
         yearly_ads[y_i] = count_items_with_word(ads, word)
-        ads_sum+=1
+        ads_sum+=yearly_ads[y_i]
     print "articles", articles_sum
     print "ads", ads_sum
 
