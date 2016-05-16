@@ -1,0 +1,4 @@
+1885
+höyrylai: 130
+kurja: 46
+siirtolai: 18
