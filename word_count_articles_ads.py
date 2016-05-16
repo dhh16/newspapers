@@ -5,7 +5,7 @@ import sys
 import glob
 import os
 import numpy as np
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 
 # count articles / ads that have some particular word
 
