@@ -14,20 +14,6 @@ import re
 #basepath = "/srv/data/newspapers/newspapers/fin/"
 basepath = "testdata/fin/"
 
-
-def count_items_with_word(items, word):
-    cnt = 0
-    for a in items:
-        with open(a, 'r') as f:
-            text = f.read()
-            text = text.lower()
-            tokens = text.split()
-            for t_i, token in enumerate(tokens):
-                if token.startswith(word):
-                    cnt += 1
-                    break
-    return cnt
-
 def get_word_counts(items, word):
     d = dict()
     for a in items:
@@ -66,20 +52,30 @@ def get_info_for_items(items):
 
 if __name__ == "__main__":
     # ...
-    word = sys.argv[1]
+    if len(sys.argv) == 2:
+        words = [sys.argv[1]]
+    elif len(sys.argv) == 1:
+        input_words_file = 'inputnames.txt'
+        with open(input_words_file, 'r') as f:
+            words = [line for line in f]
+    else:
+        print "error, unknown nuumber of command line args"
+        sys.exit(1)
     start_year = 1880
     end_year = 1905
     print "range", start_year, end_year
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
-    ads_with_word = dict()
-    ads_infos = dict()
-    for y_i, year in enumerate(years):
-        print year
-        ads = glob.glob(basepath + str(year) + '/*/*/extracted/*adver*.txt')
-        ads_with_word.update(get_word_counts(ads, word))
-        print "counts", ads_with_word
-        ads_infos.update(get_info_for_items(ads))
-        print "infos", ads_infos
+    for word in words:
+        ads_with_word = dict()
+        ads_infos = dict()
+        print word
+        for y_i, year in enumerate(years):
+            print year
+            ads = glob.glob(basepath + str(year) + '/*/*/extracted/*adver*.txt')
+            ads_with_word.update(get_word_counts(ads, word))
+            #print "counts", ads_with_word
+            ads_infos.update(get_info_for_items(ads))
+            #print "infos", ads_infos
 
