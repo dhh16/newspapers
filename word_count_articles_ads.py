@@ -7,7 +7,7 @@ import os
 import numpy as np
 from matplotlib import pyplot as plt
 
-# count articles / ads that have some particualr word
+# count articles / ads that have some particular word
 
 #basepath = "/srv/data/newspapers/newspapers/fin/"
 basepath = "testdata/fin/"
