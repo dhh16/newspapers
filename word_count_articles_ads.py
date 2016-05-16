@@ -9,8 +9,8 @@ import numpy as np
 
 # count articles / ads that have some particular word
 
-#basepath = "/srv/data/newspapers/newspapers/fin/"
-basepath = "testdata/fin/"
+basepath = "/srv/data/newspapers/newspapers/fin/"
+#basepath = "testdata/fin/"
 
 def count_items_with_word(items, word):
     cnt = 0
@@ -29,8 +29,8 @@ if __name__ == "__main__":
     # ...
     word = sys.argv[1]
     start_year = 1880
-    end_year = 1910
-    print "Range", start_year, end_year
+    end_year = 1885
+    print "range", start_year, end_year
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
@@ -39,11 +39,14 @@ if __name__ == "__main__":
     yearly_ads = np.zeros(years.shape)
     ads_sum = 0
     for y_i, year in enumerate(years):
+        print year
         articles = glob.glob(basepath + str(year) + '/*/*/extracted/*article*.txt')
         yearly_articles[y_i] = count_items_with_word(articles, word)
         articles_sum+=yearly_articles[y_i]
+        print "articles", yearly_articles[y_i]
         ads = glob.glob(basepath + str(year) + '/*/*/extracted/*adver*.txt')
         yearly_ads[y_i] = count_items_with_word(ads, word)
+        print "ads", yearly_ads[y_i]
         ads_sum+=yearly_ads[y_i]
     print "articles", articles_sum
     print "ads", ads_sum
