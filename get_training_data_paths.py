@@ -44,18 +44,22 @@ if __name__ == "__main__":
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
+    found_paths = dict()
     for y_i, year in enumerate(years):
         print year
         elements = glob.glob(basepath + str(year) + '/*/*/extracted/*.txt')
         for text_element_path in elements:
             #print text_element_path
             pyear, iss, pdate, pnumber, pdate_number, pitem = get_info_for_item(text_element_path)
-            for date, line in zip(dates,lines):
+            for i, (date, line) in enumerate(zip(dates,lines)):
                 if date == pdate:
                     with codecs.open(text_element_path, 'r', encoding="utf-8") as f:
                         text = f.read()
                         text = ''.join(text.split())
                         if line in text:
-                            print text_element_path
+                            print i, date, pitem, text_element_path
+                            if i not in found_paths:
+                                found_paths[i] = dict()
+                            found_paths[i][pitem] = text_element_path
 
 
