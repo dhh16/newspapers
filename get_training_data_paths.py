@@ -32,9 +32,10 @@ if __name__ == "__main__":
             lines = []
             dates = []
             for r in rawlines:
-                dates.append(r[:10])
-                no_ws = ''.join(r[11:].split())
-                lines.append(no_ws)
+                if r:
+                    dates.append(r[:10])
+                    no_ws = ''.join(r[11:].split())
+                    lines.append(no_ws)
     else:
         print "error, unknown number of command line args"
         sys.exit(1)
