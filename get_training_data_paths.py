@@ -56,6 +56,6 @@ if __name__ == "__main__":
                         text = f.read()
                         text = ''.join(text.split())
                         if line in text:
-                            print "hit", date, text_element_path
+                            print text_element_path
 
 
