@@ -30,7 +30,7 @@ if __name__ == "__main__":
             rawlines = [rawline for line in f]
             lines = []
             dates = []
-            for r in rawline:
+            for r in rawlines:
                 dates.append(r[:10])
                 lines.append(r[11:])
     else:
