@@ -33,14 +33,15 @@ if __name__ == "__main__":
             dates = []
             for r in rawlines:
                 if r and r.strip() != None:
+                    print "input: ", r
                     dates.append(r[:10])
                     no_ws = ''.join(r[11:].split())
                     lines.append(no_ws)
     else:
         print "error, unknown number of command line args"
         sys.exit(1)
-    start_year = 1887
-    end_year = 1887
+    start_year = 1870
+    end_year = 1910
     print "range", start_year, end_year
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
