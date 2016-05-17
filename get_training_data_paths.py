@@ -47,11 +47,12 @@ if __name__ == "__main__":
         elements = glob.glob(basepath + str(year) + '/*/*/extracted/*.txt')
         for text_element_path in elements:
             print text_element_path
-            with open(text_element_path, 'r') as f:
-                text = f.read()
-                pyear, piss, pdate, pnumber, pdate_number, pitem = get_info_for_item(text_element_path)
-                for date, line in zip(dates,lines):
-                    if date == pdate and line in text:
-                        print "hit", date, text_element_path
+            pyear, iss, pdate, pnumber, pdate_number, pitem = get_info_for_item(text_element_path)
+            for date, line in zip(dates,lines):
+                if date == pdate:
+                    with open(text_element_path, 'r') as f:
+                        text = f.read()
+                        if line in text:
+                            print "hit", date, text_element_path
 
 
