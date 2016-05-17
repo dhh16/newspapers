@@ -1,0 +1,2 @@
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-08_105/extracted/1457-4721_1887-05-08_105_section_1_advertisement_7.txt
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-10_106/extracted/1457-4721_1887-05-10_106_section_1_advertisement_3.txt
