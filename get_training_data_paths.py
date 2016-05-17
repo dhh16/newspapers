@@ -46,6 +46,7 @@ if __name__ == "__main__":
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
     found_paths = dict()
+    print len(lines)
     for y_i, year in enumerate(years):
         print year
         elements = glob.glob(basepath + str(year) + '/*/*/extracted/*.txt')
