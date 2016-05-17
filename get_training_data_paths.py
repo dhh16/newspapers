@@ -53,6 +53,7 @@ if __name__ == "__main__":
                 if date == pdate:
                     with codecs.open(text_element_path, 'r', encoding="utf-8") as f:
                         text = f.read()
+                        text.replace("\n")
                         if line in text:
                             print "hit", date, text_element_path
 
