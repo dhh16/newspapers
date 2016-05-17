@@ -32,7 +32,7 @@ if __name__ == "__main__":
             lines = []
             dates = []
             for r in rawlines:
-                if r and r.strip() != None:
+                if r and ''.join(r.split()):
                     print "input: ", r
                     dates.append(r[:10])
                     no_ws = ''.join(r[11:].split())
