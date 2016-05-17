@@ -33,7 +33,7 @@ if __name__ == "__main__":
             dates = []
             for r in rawlines:
                 dates.append(r[:10])
-                lines.append(r[11:].replace(" ", ""))
+                lines.append(r[11:])
     else:
         print "error, unknown number of command line args"
         sys.exit(1)
@@ -53,8 +53,6 @@ if __name__ == "__main__":
                 if date == pdate:
                     with codecs.open(text_element_path, 'r', encoding="utf-8") as f:
                         text = f.read()
-                        text.replace("\n", "")
-                        text.replace(" ", "")
                         if line in text:
                             print "hit", date, text_element_path
 
