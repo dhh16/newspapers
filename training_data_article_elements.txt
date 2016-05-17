@@ -3,6 +3,7 @@
 /srv/data/newspapers/newspapers/fin/1887/1458-090X/1458-090X_1887-05-07_36/extracted/1458-090X_1887-05-07_36_article_4.txt
 /srv/data/newspapers/newspapers/fin/1887/1458-090X/1458-090X_1887-05-25_41/extracted/1458-090X_1887-05-25_41_article_4.txt
 /srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-24_117A/extracted/1457-4721_1887-05-24_117A_article_16.txt
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-24_117A/extracted/1457-4721_1887-05-24_117A_article_9.txt
 /srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-28_121B/extracted/1457-4721_1887-05-28_121B_section_1_article_5.txt
 /srv/data/newspapers/newspapers/fin/1898/1457-4721/1457-4721_1898-10-21_244/extracted/1457-4721_1898-10-21_244_article_4.txt
 /srv/data/newspapers/newspapers/fin/1899/1458-2619/1458-2619_1899-06-21_159/extracted/1458-2619_1899-06-21_159_article_4.txt
