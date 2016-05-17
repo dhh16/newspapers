@@ -27,7 +27,7 @@ if __name__ == "__main__":
     if len(sys.argv) == 2:
         input_line_file = sys.argv[1]
         with open(input_line_file, 'r') as f:
-            rawlines = [rawline for line in f]
+            rawlines = [l for l in f]
             lines = []
             dates = []
             for r in rawlines:
