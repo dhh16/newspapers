@@ -5,6 +5,7 @@ import numpy as np
 import glob
 import os
 import re
+import codecs
 
 basepath = "/srv/data/newspapers/newspapers/fin/"
 
@@ -26,7 +27,7 @@ if __name__ == "__main__":
     # ...
     if len(sys.argv) == 2:
         input_line_file = sys.argv[1]
-        with open(input_line_file, 'r', encoding="utf-8") as f:
+        with codecs.open(input_line_file, 'r', encoding="utf-8") as f:
             rawlines = [l for l in f]
             lines = []
             dates = []
@@ -50,7 +51,7 @@ if __name__ == "__main__":
             pyear, iss, pdate, pnumber, pdate_number, pitem = get_info_for_item(text_element_path)
             for date, line in zip(dates,lines):
                 if date == pdate:
-                    with open(text_element_path, 'r', encoding="utf-8") as f:
+                    with codecs.open(text_element_path, 'r', encoding="utf-8") as f:
                         text = f.read()
                         if line in text:
                             print "hit", date, text_element_path
