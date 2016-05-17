@@ -70,7 +70,7 @@ if __name__ == "__main__":
     with open("training_data_all_elements.txt", 'w') as tr_out:
         for l in found_path_names:
             tr_out.write(l+'\n')
-    pickle.dump(found_paths, open("training_data_all_dict.py", "wb"))
+    pickle.dump(found_paths, open("training_data_all_dict.p", "wb"))
 
 
 
