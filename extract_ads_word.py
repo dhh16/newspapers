@@ -57,7 +57,7 @@ if __name__ == "__main__":
     elif len(sys.argv) == 1:
         input_words_file = 'inputnames.txt'
         with open(input_words_file, 'r') as f:
-            words = [line for line in f]
+            words = [line.lower() for line in f]
     else:
         print "error, unknown nuumber of command line args"
         sys.exit(1)
