@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import sys
+import numpy as np
+import glob
+import os
+import re
 
 basepath = "/srv/data/newspapers/newspapers/fin/"
 
