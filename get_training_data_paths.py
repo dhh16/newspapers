@@ -36,8 +36,8 @@ if __name__ == "__main__":
     else:
         print "error, unknown number of command line args"
         sys.exit(1)
-    start_year = 1880
-    end_year = 1905
+    start_year = 1887
+    end_year = 1887
     print "range", start_year, end_year
     all_years = os.listdir(basepath)
     years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
@@ -46,7 +46,7 @@ if __name__ == "__main__":
         print year
         elements = glob.glob(basepath + str(year) + '/*/*/extracted/*.txt')
         for text_element_path in elements:
-            print text_element_path
+            #print text_element_path
             pyear, iss, pdate, pnumber, pdate_number, pitem = get_info_for_item(text_element_path)
             for date, line in zip(dates,lines):
                 if date == pdate:
