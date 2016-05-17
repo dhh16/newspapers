@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+basepath = "/srv/data/newspapers/newspapers/fin/"
+
 if __name__ == "__main__":
     # ...
     if len(sys.argv) == 2:
