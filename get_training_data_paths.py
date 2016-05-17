@@ -32,7 +32,7 @@ if __name__ == "__main__":
             lines = []
             dates = []
             for r in rawlines:
-                if r:
+                if r and r.strip() != None:
                     dates.append(r[:10])
                     no_ws = ''.join(r[11:].split())
                     lines.append(no_ws)
