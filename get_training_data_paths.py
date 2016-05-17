@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # ...
     if len(sys.argv) == 2:
         input_line_file = sys.argv[1]
-        with open(input_words_file, 'r') as f:
+        with open(input_line_file, 'r') as f:
             lines = [line for line in f]
     else:
         print "error, unknown number of command line args"
