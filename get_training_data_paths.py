@@ -6,6 +6,7 @@ import glob
 import os
 import re
 import codecs
+import pickle
 
 basepath = "/srv/data/newspapers/newspapers/fin/"
 
@@ -48,6 +49,7 @@ if __name__ == "__main__":
     years = np.sort(years)
     found_paths = dict()
     print len(lines)
+    found_path_names = []
     for y_i, year in enumerate(years):
         print year
         elements = glob.glob(basepath + str(year) + '/*/*/extracted/*.txt')
@@ -64,5 +66,12 @@ if __name__ == "__main__":
                             if i not in found_paths:
                                 found_paths[i] = dict()
                             found_paths[i][pitem] = text_element_path
+                            found_path_names.append(text_element_path)
+    with open("training_data_all_elements.txt", 'w') as tr_out:
+        for l in found_path_names:
+            tr_out.write(l+'\n')
+    pickle.dump(found_paths, open("training_data_all_dict.py", "wb"))
+
+
 
 
