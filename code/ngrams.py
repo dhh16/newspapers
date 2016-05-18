@@ -182,5 +182,5 @@ def write_machinereadable_output(output_file):
 
 
 print "\nwriting top 500 into outputfile\n"
-write_pretty_output("../data/really_nice_output_file_500_stopwords_filtered.txt")
-write_machinereadable_output("../machinereadable_output_file_500_500_stopwords_filtered.txt")
+write_pretty_output("really_nice_output_file_500_stopwords_filtered.txt")
+write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered.txt")
