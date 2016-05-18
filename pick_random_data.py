@@ -6,6 +6,8 @@ import sys
 import re
 import random
 import numpy as np
+import glob
+import codecs
 
 basepath = "/srv/data/newspapers/newspapers/fin/"
 
