@@ -25,7 +25,7 @@ def get_stopwordlist(input_file):
     output_list = []
     with open(input_file, 'r', encoding="utf-8") as infile:
         for line in infile:
-            output_list.append(line)
+            output_list.append(line.rstrip('\n').strip())
     return output_list
 
 
@@ -155,7 +155,7 @@ sorted_list = sorted(differences_dict.items(), key=lambda i: i[1][0], reverse=Tr
 
 # print sorted_list
 
-shortened_list = sorted_list[:100]
+shortened_list = sorted_list[:500]
 
 
 def write_pretty_output(output_file):
