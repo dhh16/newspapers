@@ -21,7 +21,7 @@ if __name__ == "__main__":
     file = sys.argv[2]
     with codecs.open(file, 'r', encoding="utf-8") as f:
         paths = [l for l in f]
-    random_sample = np.random.choice(xrange(len(paths)), size=n, replace=False)
+    random_sample = np.random.choice(np.arange(len(paths)), size=n, replace=False)
     for r in random_sample:
         print paths[r]
 
