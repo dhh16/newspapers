@@ -83,7 +83,7 @@ print "\nprocessing immigration testdata\n"
 
 articles = read_files_from_textfile_to_list("test_training_data_list.txt")
 
-input_string1 = string_from_list(articles)
+input_string1 = read_file_to_string("test_input.txt")
 tokens1 = token_func(input_string1)
 length_of_tokenlist1 = len(tokens1)
 diction1 = token_dict(tokens1)
@@ -160,9 +160,17 @@ def write_pretty_output(output_file):
         out_f.write(outputline.encode('utf8'))
     out_f.close()
 
+
+def write_machinereadable_output(output_file):
+    out_f = open(output_file, 'w')
+    for item in shortened_list:
+        outputline = unicode(item[0] + "," +
+                             str(item[1][0] * 100) + "\n")
+
+        out_f.write(outputline.encode('utf8'))
+    out_f.close()
+
+
 print "\nwriting top 100 into outputfile\n"
 write_pretty_output("nice_output_file.txt")
-
-# out_f = open(output_file, 'w')
-# for item in shortened_list:
-#     out_f.write(str(item) + "\n")
+write_machinereadable_output("machinereadable_output_file.txt")
