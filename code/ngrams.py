@@ -130,26 +130,13 @@ final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 # print final_diction2
 
 
-def get_differences_in_datasets(training_data_dict, base_data_dict):
-    differences_dict = {}
-    for key in training_data_dict:
-        if key in base_data_dict:
-            difference = round(training_data_dict[key][1] - base_data_dict[key][1], 5)
-            count_in_training = training_data_dict[key][0]
-            count_in_base = base_data_dict[key][0]
-            differences_dict[key] = [difference, count_in_training, count_in_base]
-    return differences_dict
-
-
-# differences_dict = {}
-# for key in final_diction1:
-#     if key in final_diction3:
-#         difference = round(final_diction1[key][1] - final_diction3[key][1], 5)
-#         count_in_1 = final_diction1[key][0]
-#         count_in_2 = final_diction3[key][0]
-#         differences_dict[key] = [difference, count_in_1, count_in_2]
-
-differences_dict = get_differences_in_datasets(final_diction1, final_diction3)
+differences_dict = {}
+for key in final_diction1:
+    if key in final_diction3:
+        difference = round(final_diction1[key][1] - final_diction3[key][1], 5)
+        count_in_1 = final_diction1[key][0]
+        count_in_2 = final_diction3[key][0]
+        differences_dict[key] = [difference, count_in_1, count_in_2]
 
 # print differences_dict
 
@@ -187,20 +174,3 @@ def write_machinereadable_output(output_file):
 print "\nwriting top 100 into outputfile\n"
 write_pretty_output("nice_output_file.txt")
 write_machinereadable_output("machinereadable_output_file.txt")
-
-###########################
-#checking for the probability 
-############################
-
-def article_prob():
-    input_article_path = "input_article.txt" 
-    input_article_list = read_files_from_textfile_to_list("input_article.txt")
-
-    input_string_article = ""
-    input_string_article = string_from_list(input_article_list) # read file to string
-
-#     input_string_article = string_from_list(input_article)
-    article_token = token_func(input_string_article)
-    print(article_token)
-
-article_prob()
