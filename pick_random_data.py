@@ -22,9 +22,9 @@ if __name__ == "__main__":
     file = sys.argv[2]
     with codecs.open(file, 'r', encoding="utf-8") as f:
         paths = [l for l in f]
-    random_sample = random.sample(paths, n)
+    random_sample = random.sample(n, xrange(len(paths)))
     for r in random_sample:
-        print r
+        print paths[r]
 
 
 
