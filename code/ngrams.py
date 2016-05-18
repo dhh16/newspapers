@@ -4,8 +4,8 @@ import nltk
 from codecs import open
 # from operator import itemgetter
 # import numpy as np
-import glob
-
+# import glob
+nltk.download('punkt')
 
 input_string = ""
 
@@ -76,14 +76,14 @@ def string_from_list(file_list):
 
 # for the first file
 
-input_file = "test_input.txt"
+# input_file = "test_input.txt"
 output_file = "test_output.txt"
 
 print "\nprocessing immigration testdata\n"
 
-articles = read_files_from_textfile_to_list("test_training_data_list.txt")
+training_articles = read_files_from_textfile_to_list("../data/training_data_article_elements.txt")
 
-input_string1 = read_file_to_string("test_input.txt")
+input_string1 = string_from_list(training_articles)
 tokens1 = token_func(input_string1)
 length_of_tokenlist1 = len(tokens1)
 diction1 = token_dict(tokens1)
@@ -93,11 +93,11 @@ print final_diction1
 
 # the second file preparation
 
-articles = read_files_from_textfile_to_list("test_training_data_list.txt")
+base_articles = read_files_from_textfile_to_list("../data/randomish_sample_3000_articles.txt")
 
 # print type(articles)
 
-input_string3 = string_from_list(articles)
+input_string3 = string_from_list(base_articles)
 
 # for item in articles:
 #     print "\nprocessing item: " + item
