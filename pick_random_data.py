@@ -19,25 +19,10 @@ basepath = "/srv/data/newspapers/newspapers/fin/"
 
 if __name__ == "__main__":
     n = sys.argv[1]
-    substr = sys.argv[2]
-
-    rep = re.compile(r".*\/[0-9]*\/.*\/.*_[0-9]*-[0-9]*-[0-9]*_.*\/extracted\/.*" + substr + ".*.txt")
-
-    start_year = 1870
-    end_year = 1910
-    print "range", start_year, end_year
-    all_years = os.listdir(basepath)
-    years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
-    years = np.sort(years)
-    found_path_names = []
-    corpora_match_subset = []
-    for y_i, year in enumerate(years):
-        all_in_year = glob.glob(basepath + str(year) +'/*/*/extracted/*.txt')
-        for path in all_in_year:
-            m = rep.match(path)
-            if m:
-                corpora_match_subset.append(path)
-    random_sample = random.sample(corpora_match_subset, n)
+    file = sys.argv[2]
+    with codecs.open(file, 'r', encoding="utf-8") as f:
+        paths = [l for l in f]
+    random_sample = random.sample(paths, n)
     for r in random_sample:
         print r
 
