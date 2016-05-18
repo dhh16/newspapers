@@ -5,6 +5,7 @@ import os
 import sys
 import re
 import random
+import numpy as np
 
 basepath = "/srv/data/newspapers/newspapers/fin/"
 
