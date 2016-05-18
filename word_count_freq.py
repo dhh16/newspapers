@@ -23,7 +23,7 @@ if len(sys.argv) > 1:
     input_file = sys.argv[1]
 
 
-def get_words_to_find(input_file):
+def tokenize_input_file(input_file):
     f = open(input_file, 'r')
     words_in_input = f.read().lower()
     # text1 = text2.lower()
@@ -57,19 +57,19 @@ articles_sum = 0
 # ads_sum = 0
 
 
-def year_hits_for_words(year, tokens):
+def get_yearhits_dict(year, tokens):
 
     wordhits_dict = {}
 
     for word in tokens:
         articles = glob.glob(basepath + str(year) + '/*/*/extracted/*article*.txt')
-        hits_for_word = count_articles_with_word(articles, word)
-        wordhits_dict[word] = hits_for_word
+        hits = count_articles_with_word(articles, word)
+        wordhits_dict[word] = hits
 
     return wordhits_dict
 
 
-tokens = get_words_to_find(input_file)
+tokens = tokenize_input_file(input_file)
 
 
 def get_yearhits_string(year, input_dict):
@@ -87,15 +87,10 @@ def get_yearhits_string(year, input_dict):
 print "hits: "
 
 for y_i, year in enumerate(years):
-    yearhits = year_hits_for_words(year, tokens)
+    yearhits = get_yearhits_dict(year, tokens)
     yearhits_string = get_yearhits_string(year, yearhits)
     print yearhits_string
 
-    out_f = open(output_file, 'w')
+    out_f = open(output_file, 'a')
     out_f.write(yearhits_string)
     out_f.close()
-
-# output = (str(year) +
-#           "\n" + str(word) + "\t" +
-#           " words: " + str(yearly_articles[y_i])[:-2] + "\n")
-# output_file.write(output)

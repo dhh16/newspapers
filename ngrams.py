@@ -56,28 +56,23 @@ def token_percentage(token_counts, number_of_tokens):
     return token_counts
 
 
-# def tokenize_filelist(year):
-
-#     articles = glob.glob(basepath + str(year) + '/*/*/extracted/*article*.txt')
-#     for article in articles:
-#         tokens = token_func(article)
-#         # length_of_tokenlist = len(tokens)
-#         diction = token_dict(tokens)
-#         final_diction = token_percentage(diction)
-
-#     return final_diction
+def read_files_from_textfile_to_list(file_list_textfile):
+    print "reading filelist: " + file_list_textfile + "\n"
+    file_list = []
+    with open(file_list_textfile, 'r') as infile:
+        for line in infile:
+            print line
+            file_list.append(line.rstrip('\n').strip())
+    return file_list
 
 
-    # hits = count_articles_with_word(articles, word)
-    # wordhits_dict[word] = hits
-
-
-    # wordhits_dict = {}
-
-    # for word in tokens:
-
-    # return wordhits_dict
-
+def string_from_list(file_list):
+    results_string = ""
+    for item in file_list:
+        print "\nprocessing item: " + item
+        # file3 = item
+        results_string += read_file_to_string(item)
+    return results_string
 
 # for the first file
 
@@ -86,7 +81,9 @@ output_file = "test_output.txt"
 
 print "\nprocessing immigration testdata\n"
 
-input_string1 = read_file_to_string(input_file)
+articles = read_files_from_textfile_to_list("test_training_data_list.txt")
+
+input_string1 = string_from_list(articles)
 tokens1 = token_func(input_string1)
 length_of_tokenlist1 = len(tokens1)
 diction1 = token_dict(tokens1)
@@ -96,18 +93,16 @@ print final_diction1
 
 # the second file preparation
 
-year = "1884subset"
-articles = glob.glob(basepath + str(year) + '/*/*/extracted/*article*.txt')
-# print articles
+articles = read_files_from_textfile_to_list("test_training_data_list.txt")
 
 # print type(articles)
 
-input_string3 = ""
+input_string3 = string_from_list(articles)
 
-for item in articles:
-    print "\nprocessing item: " + item
-    # file3 = item
-    input_string3 += read_file_to_string(item)
+# for item in articles:
+#     print "\nprocessing item: " + item
+#     # file3 = item
+#     input_string3 += read_file_to_string(item)
 
 print "\ntokenizing..."
 tokens3 = token_func(input_string3)
@@ -153,7 +148,7 @@ sorted_list = sorted(differences_dict.items(), key=lambda i: i[1][0], reverse=Tr
 shortened_list = sorted_list[:100]
 
 
-def write_pretty_output():
+def write_pretty_output(output_file):
     out_f = open(output_file, 'w')
     for item in shortened_list:
         outputline = unicode(item[0] + "   " +
@@ -166,7 +161,7 @@ def write_pretty_output():
     out_f.close()
 
 print "\nwriting top 100 into outputfile\n"
-write_pretty_output()
+write_pretty_output("nice_output_file.txt")
 
 # out_f = open(output_file, 'w')
 # for item in shortened_list:
