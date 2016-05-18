@@ -21,12 +21,22 @@ def check_env():
 basepath = check_env()
 
 
+def get_stopwordlist(input_file):
+    output_list = []
+    with open(input_file, 'r', encoding="utf-8") as infile:
+        for line in infile:
+            output_list.append(line)
+    return output_list
+
+
 def token_func(input_string):
     tokens = nltk.word_tokenize(input_string.lower())
     refined_tokens = []
+    stopwordlist = get_stopwordlist("../data/first_stopwordlist.txt")
     for token in tokens:
         if len(token) > 3:
-            refined_tokens.append(token)
+            if token not in stopwordlist:
+                refined_tokens.append(token)
     return refined_tokens
 
 
@@ -171,6 +181,6 @@ def write_machinereadable_output(output_file):
     out_f.close()
 
 
-print "\nwriting top 100 into outputfile\n"
-write_pretty_output("../data/nice_output_file_500.txt")
-write_machinereadable_output("../machinereadable_output_file_500.txt")
+print "\nwriting top 500 into outputfile\n"
+write_pretty_output("../data/really_nice_output_file_500_stopwords_filtered.txt")
+write_machinereadable_output("../machinereadable_output_file_500_500_stopwords_filtered.txt")
