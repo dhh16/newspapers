@@ -172,5 +172,5 @@ def write_machinereadable_output(output_file):
 
 
 print "\nwriting top 100 into outputfile\n"
-write_pretty_output("nice_output_file.txt")
-write_machinereadable_output("machinereadable_output_file.txt")
+write_pretty_output("../data/nice_output_file_500.txt")
+write_machinereadable_output("../machinereadable_output_file_500.txt")
