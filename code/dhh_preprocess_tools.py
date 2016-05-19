@@ -46,7 +46,7 @@ def lemmatized_contents_str_las(string):
 
     return lemmatize_tmpfile_las(tempfilepath)
 
-def hfst_words(wordlist, filter=None):
+def hfst_words(wordlist, filter=None, accept_unknowns=False):
     """
     runs hfsts on wordlist and filters
 
@@ -81,7 +81,7 @@ def hfst_words(wordlist, filter=None):
                                 out.append(lemma)
                         else:
                             out.append(lemma)
-                    elif '?' in rsplit[0]:
+                    elif '?' in rsplit[0] and accept_unknowns:
                         out.append(w_o)
     pr.close()
     return out
