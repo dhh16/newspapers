@@ -33,7 +33,7 @@ def get_stopwordlist(input_file):
 
 
 def token_func(input_string):
-    tokens = nltk.word_tokenize(input_string.lower())
+    tokens = nltk.word_tokenize(input_string)
     long_tokens = []
     refined_tokens = []
     # lemmatized_tokens = []
@@ -51,6 +51,7 @@ def token_func(input_string):
                                                                 'PROPN'))
 
     for token in lemmatized_tokens:
+        token = token.lower()
         if token not in stopwordlist:
             refined_tokens.append(token)
     return refined_tokens
