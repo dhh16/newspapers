@@ -46,9 +46,12 @@ def lemmatized_contents_str_las(string):
 
     return lemmatize_tmpfile_las(tempfilepath)
 
-def hfst_words(wordlist):
+def hfst_words(wordlist, filter=None):
     """
-    runs hfsts on wordlist
+    runs hfsts on wordlist and filters
+
+    filter = list or tuple of (VERB, NOUN, etc)
+    inclusive: returns only words of type listed in filter
 
     returns list of unicode str
     """
@@ -71,6 +74,12 @@ def hfst_words(wordlist):
             if rest:
                 rsplit = rest.split(']')
                 if rsplit[0] and rsplit[0][1:].startswith("WORD_ID"):
-                    out.append(rsplit[0][9:].decode('utf8'))
+                    lemma = rsplit[0][9:].decode('utf8')
+                    if filter and rsplit[1] and rsplit[1][1:].startswith("UPO"):
+                        filter = filter.lower()
+                        if rsplit[0][6:].lower() in filter:
+                            out.append(lemma)
+                    else:
+                        out.append(lemma)
     pr.close()
     return out
