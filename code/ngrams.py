@@ -225,6 +225,18 @@ def write_machinereadable_output(output_file):
     out_f.close()
 
 
+def write_raw_freqs_machine(output_file):
+    out_f = open(output_file, 'w')
+    for item in results_list:
+        outputline = unicode(item[0] + "," +
+                             str(item[1][1]) + ", " +
+                             str(item[1][2])+ "\n")
+
+        out_f.write(outputline.encode('utf8'))
+    out_f.close()
+
+
 print "\nwriting top 500 into outputfile\n"
 write_pretty_output("humanreadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
 write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
+write_raw_freqs_machine("machinereadable_output_file_500_stopwords_filtered_lemmatized_raw_freqs.txt")
