@@ -125,9 +125,11 @@ def write_Final_readable():
 	for j in range(0,len(sorted_list)):
 		start = sorted_list[j][0].find("extracted")
 		end_sup = sorted_list[j][0].find("supplement")
+		end_sec = sorted_list[j][0].find("section")
 		if end_sup>0:
 			xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end_sup]+"001.xml"
-
+		elif end_sec>0:
+			xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end_sec]+"001.xml"
         	else:
 			end = sorted_list[j][0].find("article")
         		xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
