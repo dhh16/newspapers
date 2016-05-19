@@ -75,6 +75,9 @@ if __name__ == "__main__":
         for i in xrange(len(freqs[iss])):
             print years[i], freqs[iss][i]
 
+        data = np.column_stack([years, freqs[iss]])
+        np.savetxt(iss + ".csv", data, delimiter=",")
+
 
 
 
