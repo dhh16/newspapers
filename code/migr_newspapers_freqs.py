@@ -65,8 +65,8 @@ if __name__ == "__main__":
     info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
     freqs = info_all_data_papers[2]
     for iss in freqs:
-        print iss
-        for i in np.arange(len(freqs[iss])):
+        print iss, len(freqs[iss])
+        for i in xrange(len(freqs[iss])):
             print years[i], freqs[iss][i]
     #freqs_certain_paper = frequencies_newspapers(migr_paths, years, 'code')
 
