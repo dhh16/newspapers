@@ -20,7 +20,7 @@ def lemmatize_tmpfile(tempfilepath):
     pr = os.popen("/srv/bin/las lemmatize --locale fi --max-edit-distance 2 " + tempfilepath)
     pr.close()
 
-    with codecs.open(tempfilepath".lemmatized", 'r', encoding="utf-8") as f:
+    with codecs.open(tempfilepath+".lemmatized", 'r', encoding="utf-8") as f:
         contents = f.read()
 
     os.remove(tempfilepath)
