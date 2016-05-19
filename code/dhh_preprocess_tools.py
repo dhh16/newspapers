@@ -41,7 +41,7 @@ def lemmatized_contents_file(filepath):
 def lemmatized_contents_str(string):
     workdir_check()
     tempfilepath = workdir + "tmp_lemma_str"
-    with codecs.open(tempfilepath, 'w', encoding="utf-8") as f:
+    with codecs.open(tempfilepath, 'w') as f:
         f.write(string)
 
     return lemmatize_tmpfile(tempfilepath)
