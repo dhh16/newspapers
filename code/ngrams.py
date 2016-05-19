@@ -41,10 +41,9 @@ def token_func(input_string):
     regex = re.compile('[^1-9a-zA-Z]')
 
     for token in tokens:
+        token = regex.sub('', token)
         if len(token) > 3:
-            token = regex.sub('', token)
             long_tokens.append(token)
-
     lemmatized_tokens = dhh_preprocess_tools.hfst_words(long_tokens,
                                                         filter=('VERB',
                                                                 'NOUN',
