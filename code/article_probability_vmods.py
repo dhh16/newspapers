@@ -57,7 +57,7 @@ def read_files_from_textfile_to_list(file_list_textfile):
     file_list = []
     with open(file_list_textfile, 'r') as infile:
         for line in infile:
-            if line is not '':
+            if not line.isspace():
                 file_list.append(line.rstrip('\n').strip())
     return file_list
 
