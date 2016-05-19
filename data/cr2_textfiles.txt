@@ -1,0 +1,250 @@
+Serial Number = 0
+9.98668443804
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-11-17_267/extracted/1457-4721_1887-11-17_267_article_4.txt
+********************************
+
+Serial Number = 1
+9.97085714286
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-07-23_167/extracted/1458-0535_1887-07-23_167_article_6_chapter_1.txt
+********************************
+
+Serial Number = 2
+9.96026600698
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-2694/1458-2694_1887-06-24_73/extracted/1458-2694_1887-06-24_73_article_4.txt
+********************************
+
+Serial Number = 3
+9.94525102881
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-08-14_186/extracted/1457-4721_1887-08-14_186_article_12.txt
+********************************
+
+Serial Number = 4
+9.93873493976
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-10-11_235/extracted/1457-4721_1887-10-11_235_article_7.txt
+********************************
+
+Serial Number = 5
+9.92977419355
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-11-26_275/extracted/1457-4675_1887-11-26_275_article_2.txt
+********************************
+
+Serial Number = 6
+9.91299328859
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-04-22_91/extracted/1458-0535_1887-04-22_91_article_4_chapter_1.txt
+********************************
+
+Serial Number = 7
+9.90368217054
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-01-28_22/extracted/1458-0535_1887-01-28_22_article_6_chapter_1.txt
+********************************
+
+Serial Number = 8
+9.89332415119
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0888/1458-0888_1887-07-21_84/extracted/1458-0888_1887-07-21_84_article_5.txt
+********************************
+
+Serial Number = 9
+9.88239534884
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-22_116/extracted/1458-0535_1887-05-22_116_article_6_chapter_1.txt
+********************************
+
+Serial Number = 10
+9.87153488372
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-03-02_50/extracted/1457-4721_1887-03-02_50_article_21_table_1.txt
+********************************
+
+Serial Number = 11
+9.87153488372
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-01-29_23/extracted/1457-4721_1887-01-29_23_article_2.txt
+********************************
+
+Serial Number = 12
+9.86937179487
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-11-11_262/extracted/1458-0535_1887-11-11_262_supplement_1_article_9.txt
+********************************
+
+Serial Number = 13
+9.8642920354
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-2694/1458-2694_1887-12-16_148/extracted/1458-2694_1887-12-16_148_article_2.txt
+********************************
+
+Serial Number = 14
+9.84434534535
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-10-01_227/extracted/1457-4721_1887-10-01_227_article_1.txt
+********************************
+
+Serial Number = 15
+9.83226797386
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-11-03_126/extracted/1458-655X_1887-11-03_126_article_5.txt
+********************************
+
+Serial Number = 16
+9.83182894737
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-02-05_29/extracted/1458-0535_1887-02-05_29_article_6.txt
+********************************
+
+Serial Number = 17
+9.82906417112
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-04-02_76/extracted/1458-0535_1887-04-02_76_article_4.txt
+********************************
+
+Serial Number = 18
+9.81398322349
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-2694/1458-2694_1887-07-15_82/extracted/1458-2694_1887-07-15_82_article_4.txt
+********************************
+
+Serial Number = 19
+9.81034923077
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-06-26_144/extracted/1457-4721_1887-06-26_144_section_1_article_17.txt
+********************************
+
+Serial Number = 20
+9.80573692078
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-04-10_82/extracted/1457-4721_1887-04-10_82_section_1_article_14.txt
+********************************
+
+Serial Number = 21
+9.80515217391
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-02-17_39/extracted/1458-0535_1887-02-17_39_article_8.txt
+********************************
+
+Serial Number = 22
+9.80377970012
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4640/1457-4640_1887-11-30_95/extracted/1457-4640_1887-11-30_95_article_3.txt
+********************************
+
+Serial Number = 23
+9.80327196653
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-01-18_13/extracted/1457-4721_1887-01-18_13_article_17.txt
+********************************
+
+Serial Number = 24
+9.79701149425
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0888/1458-0888_1887-12-22_150/extracted/1458-0888_1887-12-22_150_article_2.txt
+********************************
+
+Serial Number = 25
+9.79565605096
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-8749/1458-8749_1887-08-03_54/extracted/1458-8749_1887-08-03_54_article_3.txt
+********************************
+
+Serial Number = 26
+9.77992442882
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-06-30_147/extracted/1458-0535_1887-06-30_147_article_8.txt
+********************************
+
+Serial Number = 27
+9.77779656468
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-2716/1458-2716_1887-02-02_18/extracted/1458-2716_1887-02-02_18_article_4.txt
+********************************
+
+Serial Number = 28
+9.75526167472
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-09-27_223/extracted/1458-0535_1887-09-27_223_article_4_chapter_1.txt
+********************************
+
+Serial Number = 29
+9.75111555778
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4640/1457-4640_1887-01-15_4/extracted/1457-4640_1887-01-15_4_article_7.txt
+********************************
+
+Serial Number = 30
+9.73986206897
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-25_46/extracted/1457-4721_1887-02-25_46_article_13.txt
+********************************
+
+Serial Number = 31
+9.73926
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-07-15_160/extracted/1457-4721_1887-07-15_160_article_6.txt
+********************************
+
+Serial Number = 32
+9.73873965937
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-06-29_146/extracted/1457-4721_1887-06-29_146_article_10.txt
+********************************
+
+Serial Number = 33
+9.73579013046
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-2694/1458-2694_1887-01-21_9/extracted/1458-2694_1887-01-21_9_article_5.txt
+********************************
+
+Serial Number = 34
+9.73040145985
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-04-24_93/extracted/1457-4721_1887-04-24_93_article_8.txt
+********************************
+
+Serial Number = 35
+9.72852275862
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-07-20_164/extracted/1457-4721_1887-07-20_164_article_5.txt
+********************************
+
+Serial Number = 36
+9.72112107623
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-01-05_3/extracted/1458-0535_1887-01-05_3_article_6_chapter_1.txt
+********************************
+
+Serial Number = 37
+9.71505114638
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-04-08_81/extracted/1458-0535_1887-04-08_81_supplement_1_article_14_chapter_2.txt
+********************************
+
+Serial Number = 38
+9.70755665025
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-01-30_24/extracted/1457-4721_1887-01-30_24_article_13.txt
+********************************
+
+Serial Number = 39
+9.70078828829
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-11-22_271/extracted/1457-4721_1887-11-22_271_article_15.txt
+********************************
+
+Serial Number = 40
+9.69988811189
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-12-07_284/extracted/1457-4721_1887-12-07_284_article_4.txt
+********************************
+
+Serial Number = 41
+9.69901724138
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-09-14_212/extracted/1457-4675_1887-09-14_212_article_3.txt
+********************************
+
+Serial Number = 42
+9.67644199706
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4640/1457-4640_1887-05-28_42/extracted/1457-4640_1887-05-28_42_article_5.txt
+********************************
+
+Serial Number = 43
+9.67322816901
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-07-15_160/extracted/1458-0535_1887-07-15_160_article_3.txt
+********************************
+
+Serial Number = 44
+9.65305836576
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-09-30_226/extracted/1457-4721_1887-09-30_226_article_9.txt
+********************************
+
+Serial Number = 45
+9.64718181818
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-09-13_211/extracted/1457-4721_1887-09-13_211_article_22_table_3.txt
+********************************
+
+Serial Number = 46
+9.64718181818
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-03-17_63/extracted/1457-4721_1887-03-17_63_article_2.txt
+********************************
+
+Serial Number = 47
+9.64175427683
+86.50.168.175/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-07-30_85/extracted/1458-655X_1887-07-30_85_article_6.txt
+********************************
+
+Serial Number = 48
+9.61536708861
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-25_118/extracted/1457-4721_1887-05-25_118_article_13.txt
+********************************
+
+Serial Number = 49
+9.61106703911
+86.50.168.175/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-09-22_219/extracted/1457-4721_1887-09-22_219_article_5.txt
+********************************
+
