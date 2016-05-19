@@ -64,6 +64,7 @@ def hfst_words(wordlist):
             continue
         w_o = lsplit[0]
         if w_o not in found_words:
+            found_words.add(w_o)
             rest = lsplit[1]
             if rest:
                 rsplit = rest.split(']')
