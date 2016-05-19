@@ -63,14 +63,14 @@ if __name__ == "__main__":
     with open(migration_element_paths_file, 'r') as f:
         migr_paths = [l.strip() for l in f]
 
-    info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
-    freqs = info_all_data_papers[2]
+    #info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
+    #freqs = info_all_data_papers[2]
+    freqs_certain_paper = frequencies_newspapers(migr_paths, years, '1457-4721')
+    freqs = freqs_certain_paper[2]
     for iss in freqs:
         print iss, len(freqs[iss])
         for i in xrange(len(freqs[iss])):
             print years[i], freqs[iss][i]
-    #freqs_certain_paper = frequencies_newspapers(migr_paths, years, 'code')
-
 
 
 
