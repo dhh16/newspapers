@@ -16,7 +16,7 @@ def n_elements_by_newspaper(years, newspaper, element):
     nums = np.zeros(years.shape)
     for y_i, year in enumerate(years):
         pr = os.popen('find ' + basepath + str(year) + '/' + newspaper + '/* -name ' + "'*" + element + "*.txt' | wc -l")
-        n = int(pr.read().strip())
+        n = long(pr.read().strip())
         pr.close()
         nums[y_i] = n
     return nums
