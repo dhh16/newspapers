@@ -15,8 +15,10 @@ def n_elements_by_newspaper(years, newspaper, element):
     """
     nums = np.zeros(years.shape)
     for y_i, year in enumerate(years):
-        items = glob.glob(basepath + str(year) + '/' + newspaper + '/*/extracted/*' + element + '*.txt')
-        nums[y_i] = len(items)
+        pr = os.popen('find ' basepath + str(year) + '/' + newspaper + '/*/extracted/ -name ' + "'*" + element + "*.txt' | wc -l")
+        n = int(pr.read().strip())
+        pr.close()
+        nums[y_i] = n
     return nums
 
 def frequencies_newspapers(migr_paths, years, element, papers=None):
@@ -39,7 +41,6 @@ def frequencies_newspapers(migr_paths, years, element, papers=None):
         newspapers_yearly_migr_elems[iss][year-start_year] += 1
 
     for iss in newspapers_yearly_migr_elems:
-        print iss
         n_years = n_elements_by_newspaper(years, iss, element)
         newspapers_yearly_all_elems[iss] = n_years
         newspapers_yearly_migr_freq[iss] = newspapers_yearly_migr_elems[iss]/n_years
