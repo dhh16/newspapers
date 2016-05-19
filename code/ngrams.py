@@ -94,7 +94,7 @@ def read_files_from_textfile_to_list(file_list_textfile):
 def string_from_list(file_list):
     results_string = ""
     for ind, item in enumerate(file_list):
-        print "\nprocessing item n. " + ind + ": " + item
+        print "\nprocessing item n. " + str(ind) + ": " + item
         # file3 = item
         results_string += read_file_to_string(item)
     return results_string
