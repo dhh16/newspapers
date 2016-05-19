@@ -123,7 +123,7 @@ def write_Final_readable():
         k,v = line.strip().split(",")
         answer[k.strip()] = v.strip()
     f.close()
-    sorted_list = sorted(answer.items(), key=lambda i: i[1], reverse=True)
+    sorted_list = sorted(answer.items(), key=lambda i: float(i[1]), reverse=True)
     for j in range(0,len(sorted_list)):
         start = sorted_list[j][0].find("extracted")
         end_sup = sorted_list[j][0].find("supplement")
