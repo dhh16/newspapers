@@ -34,7 +34,6 @@ def frequencies_newspapers(migr_paths, years, element, papers=None):
         year = int(year)
         if year not in years:
             continue
-        print year, iss
         if papers and iss not in papers:
             continue
         if iss not in newspapers_yearly_migr_elems:
