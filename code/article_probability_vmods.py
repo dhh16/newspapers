@@ -1,7 +1,8 @@
 import os
+import nltk
 from codecs import open
 import xml.etree.ElementTree as ET
-from ngrams import token_func, read_file_to_string, read_files_from_textfile_to_list
+# from ngrams import token_func, read_file_to_string, read_files_from_textfile_to_list
 
 input_string = ""
 
@@ -15,6 +16,49 @@ def check_env():
 
 # local or production?
 basepath = check_env()
+
+
+def token_func(input_string):
+    tokens = nltk.word_tokenize(input_string.lower())
+    refined_tokens = []
+    for token in tokens:
+        if len(token) > 3:
+            refined_tokens.append(token)
+    return refined_tokens
+
+
+def token_dict(token_list):
+    token_counts = {}
+    for token in token_list:
+        if token in token_counts:
+            token_counts[token] = [token_counts[token][0] + 1]
+        else:
+            token_counts[token] = [1]
+    return token_counts
+
+
+def read_file_to_string(input_file):
+    output_string = ""
+    with open(input_file, 'r', encoding="utf-8") as infile:
+        for line in infile:
+            output_string = output_string + line
+    return output_string
+
+
+def token_percentage(token_counts, number_of_tokens):
+    length_of_tokenlist = number_of_tokens
+    for token in token_counts:
+        percentage = round((token_counts[token][0]) / float(length_of_tokenlist), 7)
+        token_counts[token].append(percentage)
+    return token_counts
+
+
+def read_files_from_textfile_to_list(file_list_textfile):
+    file_list = []
+    with open(file_list_textfile, 'r') as infile:
+        for line in infile:
+            file_list.append(line.rstrip('\n').strip())
+    return file_list
 
 
 def string_from_list(file_list):
