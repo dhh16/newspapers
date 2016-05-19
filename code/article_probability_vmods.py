@@ -79,7 +79,7 @@ def string_from_list(file_list):
 
 def article_prob():
     out_f5 = open("Final", 'w')
-    input_article_list = read_files_from_textfile_to_list("randomish_sample_3000_articles.txt")
+    input_article_list = read_files_from_textfile_to_list("../data/randomish_sample_3000_articles.txt")
     # i =0
     for in_list in input_article_list:
         input_string_article = ""
@@ -90,7 +90,7 @@ def article_prob():
         for item in article_token:
             out_f.write(item.encode('utf8') + "\n")
             out_f.close()
-        in_string = read_file_to_string("machinereadable_output_file_500_stopwords_filtered.txt")
+        in_string = read_file_to_string("../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
         in_token = token_func(in_string)
         le = len(article_token)
         lab = in_token[1].split(",")
