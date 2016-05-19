@@ -89,7 +89,7 @@ def article_prob():
         out_f1 = open("output_file_article_final", 'w')
         for item in article_token:
             out_f.write(item.encode('utf8') + "\n")
-            out_f.close()
+        out_f.close()
         in_string = read_file_to_string("../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
         in_token = token_func(in_string)
         le = len(article_token)
@@ -109,7 +109,7 @@ def article_prob():
             lll = 0
         out_ff = unicode(in_list + "\t" + "," + str(lll))
         out_f5.write(out_ff.encode("utf") + "\n")
-    write_Final_readable()
+    write_final_readable_textfilelinks()
 
 
 def write_Final_readable():
@@ -139,10 +139,10 @@ def write_Final_readable():
 
 
 def write_final_readable_textfilelinks():
-    out_final_readable = open("Final_textfiles.txt","w")
+    out_final_readable = open("Final_textfiles.txt", "w")
     f = open("Final","r")
-    answer ={}
-    sorted_list2 ={}
+    answer = {}
+    sorted_list2 = {}
     for line in f:
         k,v = line.strip().split(",")
         answer[k.strip()] = v.strip()
@@ -162,4 +162,5 @@ def write_final_readable_textfilelinks():
         #         xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
         # e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +"\n" + str(sorted_list[j][1]) + "\n"+ "86.50.168.175/" + (sorted_list[j][0])[4:] + "\n"+ "********************************" + "\n")
-        out_final_readable.write(out_xff.encode("utf") +"\n")
+        out_final_readable.write(out_xff.encode("utf") + "\n")
+    out_final_readable.close()
