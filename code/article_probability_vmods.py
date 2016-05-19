@@ -93,7 +93,7 @@ def article_prob():
         in_string = read_file_to_string("../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
         in_token = token_func(in_string)
         le = len(article_token)
-        lab = in_token[1].split(",")
+        # lab = in_token[1].split(",")
         sumi = 0.0
         for item in article_token:
             for i in range(0, len(in_token) - 1):
@@ -102,7 +102,7 @@ def article_prob():
                     out_f_l = unicode(item + "\t" + in_token[i].split(",")[1])
                     out_f1.write(out_f_l.encode("utf") + "\n")
                     sumi = sumi + float(in_token[i].split(",")[1])
-            print "The final sum(values)/amount of is \n"
+        print "The final sum(values)/amount of is \n"
         if le > 0:
             lll = sumi / le
         else:
@@ -116,7 +116,7 @@ def write_Final_readable():
     out_final_readable = open("Final_hyperlink.txt", "w")
     f = open("Final", "r")
     answer = {}
-    sorted_list2 = {}
+    # sorted_list2 = {}
     for line in f:
         k, v = line.strip().split(",")
         answer[k.strip()] = v.strip()
@@ -127,29 +127,34 @@ def write_Final_readable():
         end_sup = sorted_list[j][0].find("supplement")
         end_sec = sorted_list[j][0].find("section")
         if end_sup > 0:
-            xmml_path = sorted_list[j][0][:start] + "alto" + sorted_list[j][0][start + 9:end_sup] + "001.xml"
+            xmml_path = (sorted_list[j][0][:start] + "alto" +
+                         sorted_list[j][0][start + 9:end_sup] + "001.xml")
         elif end_sec > 0:
-            xmml_path = sorted_list[j][0][:start] + "alto" + sorted_list[j][0][start + 9:end_sec] + "001.xml"
+            xmml_path = (sorted_list[j][0][:start] + "alto" +
+                         sorted_list[j][0][start + 9:end_sec] + "001.xml")
         else:
             end = sorted_list[j][0].find("article")
-            xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
+            xmml_path = (sorted_list[j][0][:start] + "alto" +
+                         sorted_list[j][0][start + 9:end] + "001.xml")
         e = ET.parse(xmml_path).getroot()
-        out_xff = unicode("Serial Number = " + str(j) +"\n" + e[0][16].text + "\n" + str(sorted_list[j][1]) + "\n" + sorted_list[j][0] + "\n"+ "********************************" + "\n")
-        out_final_readable.write(out_xff.encode("utf") +"\n")
+        out_xff = unicode("Serial Number = " + str(j) + "\n" +
+                          e[0][16].text + "\n" + str(sorted_list[j][1]) + "\n" +
+                          sorted_list[j][0] + "\n" + "********************************" + "\n")
+        out_final_readable.write(out_xff.encode("utf") + "\n")
 
 
 def write_final_readable_textfilelinks():
     out_final_readable = open("Final_textfiles.txt", "w")
-    f = open("Final","r")
+    f = open("Final", "r")
     answer = {}
-    sorted_list2 = {}
+    # sorted_list2 = {}
     for line in f:
-        k,v = line.strip().split(",")
+        k, v = line.strip().split(",")
         answer[k.strip()] = v.strip()
     f.close()
     sorted_list = sorted(answer.items(), key=lambda i: i[1], reverse=True)
     shortened_list = sorted_list[:50]
-    for j in range(0,len(shortened_list)):
+    for j in range(0, len(shortened_list)):
         # start = sorted_list[j][0].find("extracted")
         # end_sup = sorted_list[j][0].find("supplement")
         # end_sec = sorted_list[j][0].find("section")
@@ -161,6 +166,9 @@ def write_final_readable_textfilelinks():
         #     end = sorted_list[j][0].find("article")
         #         xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
         # e = ET.parse(xmml_path).getroot()
-        out_xff = unicode("Serial Number = " + str(j) +"\n" + str(sorted_list[j][1]) + "\n"+ "86.50.168.175/" + (sorted_list[j][0])[4:] + "\n"+ "********************************" + "\n")
+        out_xff = unicode("Serial Number = " + str(j) +
+                          "\n" + str(sorted_list[j][1]) + "\n" +
+                          "86.50.168.175/" + (sorted_list[j][0])[4:] + "\n" +
+                          "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") + "\n")
     out_final_readable.close()
