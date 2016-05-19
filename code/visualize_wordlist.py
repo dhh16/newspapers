@@ -30,5 +30,6 @@ if __name__ == "__main__":
     plt.subplots_adjust(bottom=0.30)
     #plt.show()
     fig.savefig("frequencies.pdf")
-    fig.savefig("frequencies.png")
+    fig.savefig("frequencies.png", dpi=300)
+    fig.savefig("frequencies.svg")
 
