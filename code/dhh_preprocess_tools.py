@@ -54,7 +54,7 @@ def hfst_words(wordlist):
     tempfilepath = workdir + "tmp_lemma_hfst_str"
     with codecs.open(tempfilepath, 'w') as f:
         for s in wordlist:
-            f.write(s)
+            f.write(s + '\n')
     pr = os.popen("cat " + tempfilepath + "| hfst-optimized-lookup /srv/bin/omorfi-omor.analyse.hfst")
     out = [l for l in pr]
     pr.close()
