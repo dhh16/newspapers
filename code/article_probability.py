@@ -140,6 +140,7 @@ def write_Final_readable():
                             + "\n" + sorted_list[j][0] + "\n"+
                             "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") +"\n")
+    out_final_readable.close()
 
 article_prob()
 
