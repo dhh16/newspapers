@@ -1,0 +1,1566 @@
+Serial Number = 0
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637377/pdf
+9.85915492958e-05
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-10-04_230/extracted/0356-1356_1902-10-04_230_article_2.txt
+********************************
+
+Serial Number = 1
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/804032/pdf
+9.77011494253e-05
+/srv/data/newspapers/newspapers/fin/1910/1458-0543/1458-0543_1910-12-17_148A/extracted/1458-0543_1910-12-17_148A_article_3.txt
+********************************
+
+Serial Number = 2
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379410/pdf
+9.74729241877e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-03-19_65/extracted/0355-6913_1890-03-19_65_article_9.txt
+********************************
+
+Serial Number = 3
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/32996/pdf
+9.45945945946e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-29_172/extracted/1457-4721_1890-07-29_172_article_21.txt
+********************************
+
+Serial Number = 4
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/42867/pdf
+9.375e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-01-22_17/extracted/1457-4721_1887-01-22_17_article_1.txt
+********************************
+
+Serial Number = 5
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/706793/pdf
+9.31677018634e-05
+/srv/data/newspapers/newspapers/fin/1902/1458-8595/1458-8595_1902-06-07_108/extracted/1458-8595_1902-06-07_108_article_2.txt
+********************************
+
+Serial Number = 6
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/62631/pdf
+9.25925925926e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-10-28_250/extracted/1458-0535_1890-10-28_250_article_3.txt
+********************************
+
+Serial Number = 7
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/137175/pdf
+9.19324577861e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-03_27/extracted/1457-4721_1887-02-03_27_article_1.txt
+********************************
+
+Serial Number = 8
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/32996/pdf
+8e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-29_172/extracted/1457-4721_1890-07-29_172_article_2.txt
+********************************
+
+Serial Number = 9
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/428757/pdf
+8.9156626506e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-19_41/extracted/1457-4721_1887-02-19_41_article_1.txt
+********************************
+
+Serial Number = 10
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/718202/pdf
+8.86075949367e-05
+/srv/data/newspapers/newspapers/fin/1910/fk10460/fk10460_1910-08-03_175/extracted/fk10460_1910-08-03_175_article_2.txt
+********************************
+
+Serial Number = 11
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/724039/pdf
+8.82352941176e-05
+/srv/data/newspapers/newspapers/fin/1910/fk14770/fk14770_1910-12-30_303/extracted/fk14770_1910-12-30_303_article_3.txt
+********************************
+
+Serial Number = 12
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/380222/pdf
+8.66141732283e-05
+/srv/data/newspapers/newspapers/fin/1887/0355-6913/0355-6913_1887-12-31_156/extracted/0355-6913_1887-12-31_156_article_1.txt
+********************************
+
+Serial Number = 13
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/803808/pdf
+8.60215053763e-05
+/srv/data/newspapers/newspapers/fin/1910/1458-0543/1458-0543_1910-08-23_98/extracted/1458-0543_1910-08-23_98_article_1.txt
+********************************
+
+Serial Number = 14
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/15386/pdf
+8.54700854701e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-17_162/extracted/1457-4721_1890-07-17_162_article_3.txt
+********************************
+
+Serial Number = 15
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379400/pdf
+8.27586206897e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-05-20_114/extracted/0355-6913_1890-05-20_114_article_15.txt
+********************************
+
+Serial Number = 16
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/649923/pdf
+8.13953488372e-05
+/srv/data/newspapers/newspapers/fin/1910/fk19511/fk19511_1910-01-21_16/extracted/fk19511_1910-01-21_16_article_1.txt
+********************************
+
+Serial Number = 17
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/442354/pdf
+7.95454545455e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-8501/1458-8501_1890-06-28_52/extracted/1458-8501_1890-06-28_52_article_1.txt
+********************************
+
+Serial Number = 18
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/631939/pdf
+7.89473684211e-05
+/srv/data/newspapers/newspapers/fin/1902/fk10128/fk10128_1902-12-04_139/extracted/fk10128_1902-12-04_139_article_2.txt
+********************************
+
+Serial Number = 19
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/26555/pdf
+7.86516853933e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-8501/1458-8501_1890-04-26_34/extracted/1458-8501_1890-04-26_34_article_1.txt
+********************************
+
+Serial Number = 20
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/478730/pdf
+7.69230769231e-05
+/srv/data/newspapers/newspapers/fin/1887/1458-2716/1458-2716_1887-10-07_155/extracted/1458-2716_1887-10-07_155_article_1.txt
+********************************
+
+Serial Number = 21
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/53380/pdf
+7.63888888889e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-03-15_61/extracted/1457-4721_1887-03-15_61_article_3.txt
+********************************
+
+Serial Number = 22
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417474/pdf
+7.59493670886e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4675/1457-4675_1890-04-25_94/extracted/1457-4675_1890-04-25_94_article_5.txt
+********************************
+
+Serial Number = 23
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/481024/pdf
+7.48299319728e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-2716/1458-2716_1890-05-17_112/extracted/1458-2716_1890-05-17_112_article_2.txt
+********************************
+
+Serial Number = 24
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379269/pdf
+7.43801652893e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-07-17_162/extracted/0355-6913_1890-07-17_162_article_2.txt
+********************************
+
+Serial Number = 25
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/44566/pdf
+7.39130434783e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-10-10_235/extracted/1457-4721_1890-10-10_235_article_20.txt
+********************************
+
+Serial Number = 26
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379318/pdf
+7.37704918033e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-11-28_277/extracted/0355-6913_1890-11-28_277_article_2.txt
+********************************
+
+Serial Number = 27
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379310/pdf
+7.37704918033e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-09-27_224/extracted/0355-6913_1890-09-27_224_article_2.txt
+********************************
+
+Serial Number = 28
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/480260/pdf
+7.33333333333e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-2716/1458-2716_1890-01-28_22/extracted/1458-2716_1890-01-28_22_article_2.txt
+********************************
+
+Serial Number = 29
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379466/pdf
+7.31707317073e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-11-29_278/extracted/0355-6913_1890-11-29_278_article_2.txt
+********************************
+
+Serial Number = 30
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379345/pdf
+7.25806451613e-05
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-09-19_217/extracted/0355-6913_1890-09-19_217_article_2.txt
+********************************
+
+Serial Number = 31
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/139053/pdf
+7.23562152134e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-17_39/extracted/1457-4721_1887-02-17_39_article_1.txt
+********************************
+
+Serial Number = 32
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/651091/pdf
+7.21649484536e-05
+/srv/data/newspapers/newspapers/fin/1910/0782-7024/0782-7024_1910-02-17_39/extracted/0782-7024_1910-02-17_39_article_1.txt
+********************************
+
+Serial Number = 33
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046720/pdf
+7.20720720721e-05
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-07-19_79/extracted/1458-0950_1910-07-19_79_article_19.txt
+********************************
+
+Serial Number = 34
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/804015/pdf
+7.14285714286e-05
+/srv/data/newspapers/newspapers/fin/1910/1458-0543/1458-0543_1910-12-10_145A/extracted/1458-0543_1910-12-10_145A_article_3.txt
+********************************
+
+Serial Number = 35
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/92796/pdf
+7.05882352941e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-6606/1458-6606_1890-08-25_97/extracted/1458-6606_1890-08-25_97_article_2.txt
+********************************
+
+Serial Number = 36
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/32342/pdf
+6.86274509804e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-05-07_104/extracted/1458-0535_1890-05-07_104_article_4_chapter_1.txt
+********************************
+
+Serial Number = 37
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/478804/pdf
+6.81818181818e-05
+/srv/data/newspapers/newspapers/fin/1887/1458-2716/1458-2716_1887-12-21_198/extracted/1458-2716_1887-12-21_198_article_1.txt
+********************************
+
+Serial Number = 38
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043355/pdf
+6.55172413793e-05
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-11-10_131/extracted/1458-090X_1902-11-10_131_article_31.txt
+********************************
+
+Serial Number = 39
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/480006/pdf
+6.04026845638e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-2716/1458-2716_1890-07-15_160/extracted/1458-2716_1890-07-15_160_article_2.txt
+********************************
+
+Serial Number = 40
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/465216/pdf
+5.81395348837e-05
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-11_107/extracted/1458-0535_1887-05-11_107_article_3.txt
+********************************
+
+Serial Number = 41
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/45192/pdf
+5.76923076923e-05
+/srv/data/newspapers/newspapers/fin/1890/1458-2317/1458-2317_1890-12-06_138/extracted/1458-2317_1890-12-06_138_article_1.txt
+********************************
+
+Serial Number = 42
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/416872/pdf
+5.6338028169e-05
+/srv/data/newspapers/newspapers/fin/1876/1457-4675/1457-4675_1876-12-16_148/extracted/1457-4675_1876-12-16_148_article_10.txt
+********************************
+
+Serial Number = 43
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/26235/pdf
+5.33596837945e-05
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-22_166/extracted/1457-4721_1890-07-22_166_article_1.txt
+********************************
+
+Serial Number = 44
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/803453/pdf
+5.09461426492e-05
+/srv/data/newspapers/newspapers/fin/1910/1458-0543/1458-0543_1910-01-29_23/extracted/1458-0543_1910-01-29_23_article_13.txt
+********************************
+
+Serial Number = 45
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/109690/pdf
+3.64583333333e-05
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-12-11_288/extracted/1457-4721_1887-12-11_288_article_15.txt
+********************************
+
+Serial Number = 46
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043942/pdf
+0.01325
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-11-09_130/extracted/1458-090X_1910-11-09_130_article_31.txt
+********************************
+
+Serial Number = 47
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637190/pdf
+0.0106
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-02-21_43/extracted/0356-1356_1902-02-21_43_article_2.txt
+********************************
+
+Serial Number = 48
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637319/pdf
+0.0106
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-07-29_172/extracted/0356-1356_1902-07-29_172_article_2.txt
+********************************
+
+Serial Number = 49
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115356/pdf
+0.0106
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-03-13_29/extracted/1458-090X_1890-03-13_29_article_56.txt
+********************************
+
+Serial Number = 50
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/702527/pdf
+0.0105
+/srv/data/newspapers/newspapers/fin/1902/fk10471/fk10471_1902-03-29_72/extracted/fk10471_1902-03-29_72_article_1.txt
+********************************
+
+Serial Number = 51
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/702562/pdf
+0.0105
+/srv/data/newspapers/newspapers/fin/1902/fk10471/fk10471_1902-05-12_107/extracted/fk10471_1902-05-12_107_article_1.txt
+********************************
+
+Serial Number = 52
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/70390/pdf
+0.0101666666667
+/srv/data/newspapers/newspapers/fin/1877/1457-4527/1457-4527_1877-12-22_51/extracted/1457-4527_1877-12-22_51_supplement_1_article_4.txt
+********************************
+
+Serial Number = 53
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637335/pdf
+0.00883333333333
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-08-16_188/extracted/0356-1356_1902-08-16_188_article_1.txt
+********************************
+
+Serial Number = 54
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/641512/pdf
+0.00883333333333
+/srv/data/newspapers/newspapers/fin/1910/0356-1356/0356-1356_1910-06-22_141/extracted/0356-1356_1910-06-22_141_article_2.txt
+********************************
+
+Serial Number = 55
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/641471/pdf
+0.00883333333333
+/srv/data/newspapers/newspapers/fin/1910/0356-1356/0356-1356_1910-05-03_100/extracted/0356-1356_1910-05-03_100_article_2.txt
+********************************
+
+Serial Number = 56
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/641537/pdf
+0.00757142857143
+/srv/data/newspapers/newspapers/fin/1910/0356-1356/0356-1356_1910-07-23_166/extracted/0356-1356_1910-07-23_166_article_2.txt
+********************************
+
+Serial Number = 57
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637314/pdf
+0.00757142857143
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-07-23_167/extracted/0356-1356_1902-07-23_167_article_2.txt
+********************************
+
+Serial Number = 58
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637349/pdf
+0.00757142857143
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-09-02_202/extracted/0356-1356_1902-09-02_202_article_2.txt
+********************************
+
+Serial Number = 59
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637212/pdf
+0.006625
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-03-19_65/extracted/0356-1356_1902-03-19_65_article_2.txt
+********************************
+
+Serial Number = 60
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637159/pdf
+0.006625
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-01-16_12/extracted/0356-1356_1902-01-16_12_article_2.txt
+********************************
+
+Serial Number = 61
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637256/pdf
+0.006625
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-05-14_109/extracted/0356-1356_1902-05-14_109_article_2.txt
+********************************
+
+Serial Number = 62
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044687/pdf
+0.006625
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-02-02_13/extracted/1458-090X_1910-02-02_13_article_26.txt
+********************************
+
+Serial Number = 63
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637432/pdf
+0.006625
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-12-08_285/extracted/0356-1356_1902-12-08_285_article_2.txt
+********************************
+
+Serial Number = 64
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045709/pdf
+0.006
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-11-10_128/extracted/1458-0950_1910-11-10_128_article_33.txt
+********************************
+
+Serial Number = 65
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045252/pdf
+0.006
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-10-16_117/extracted/1458-0950_1902-10-16_117_article_7.txt
+********************************
+
+Serial Number = 66
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045008/pdf
+0.00424
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-05-30_61/extracted/1458-090X_1910-05-30_61_article_23.txt
+********************************
+
+Serial Number = 67
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115380/pdf
+0.004
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-09-23_107/extracted/1458-090X_1890-09-23_107_article_35.txt
+********************************
+
+Serial Number = 68
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041170/pdf
+0.00325757575758
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-08-25_98/extracted/1458-090X_1902-08-25_98_article_4.txt
+********************************
+
+Serial Number = 69
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045288/pdf
+0.0032
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-08_90/extracted/1458-090X_1910-08-08_90_article_6.txt
+********************************
+
+Serial Number = 70
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045311/pdf
+0.0032
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-10-03_114/extracted/1458-090X_1910-10-03_114_article_6.txt
+********************************
+
+Serial Number = 71
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/73356/pdf
+0.003
+/srv/data/newspapers/newspapers/fin/1887/1458-090X/1458-090X_1887-03-19_22/extracted/1458-090X_1887-03-19_22_article_1.txt
+********************************
+
+Serial Number = 72
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045019/pdf
+0.003
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-06-22_71/extracted/1458-090X_1910-06-22_71_article_67.txt
+********************************
+
+Serial Number = 73
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045729/pdf
+0.00291304347826
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-12-24_147/extracted/1458-0950_1910-12-24_147_article_66.txt
+********************************
+
+Serial Number = 74
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045284/pdf
+0.00288888888889
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-09-04_99/extracted/1458-0950_1902-09-04_99_article_92.txt
+********************************
+
+Serial Number = 75
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045287/pdf
+0.00285714285714
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-03_88/extracted/1458-090X_1910-08-03_88_article_50.txt
+********************************
+
+Serial Number = 76
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115369/pdf
+0.00268181818182
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-04-12_40/extracted/1458-090X_1890-04-12_40_article_10.txt
+********************************
+
+Serial Number = 77
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/77316/pdf
+0.00253982300885
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-01-17_13/extracted/1458-0535_1890-01-17_13_supplement_2_article_24.txt
+********************************
+
+Serial Number = 78
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/114957/pdf
+0.00251851851852
+/srv/data/newspapers/newspapers/fin/1890/1458-2546/1458-2546_1890-02-26_17/extracted/1458-2546_1890-02-26_17_article_1.txt
+********************************
+
+Serial Number = 79
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/39240/pdf
+0.00250877192982
+/srv/data/newspapers/newspapers/fin/1887/1458-2554/1458-2554_1887-10-12_81/extracted/1458-2554_1887-10-12_81_article_1.txt
+********************************
+
+Serial Number = 80
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046646/pdf
+0.0025
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-05-21_55/extracted/1458-0950_1910-05-21_55_article_4.txt
+********************************
+
+Serial Number = 81
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/29193/pdf
+0.00242857142857
+/srv/data/newspapers/newspapers/fin/1890/1458-2546/1458-2546_1890-04-02_27/extracted/1458-2546_1890-04-02_27_article_1.txt
+********************************
+
+Serial Number = 82
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041172/pdf
+0.00239393939394
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-08-29_100/extracted/1458-090X_1902-08-29_100_article_41.txt
+********************************
+
+Serial Number = 83
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/73636/pdf
+0.00237254901961
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-02-15_38/extracted/1458-0535_1890-02-15_38_article_4_chapter_2.txt
+********************************
+
+Serial Number = 84
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/70916/pdf
+0.00236842105263
+/srv/data/newspapers/newspapers/fin/1887/1458-2554/1458-2554_1887-07-27_59/extracted/1458-2554_1887-07-27_59_article_1.txt
+********************************
+
+Serial Number = 85
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/53381/pdf
+0.00235983263598
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-19_114/extracted/1457-4721_1887-05-19_114_article_10.txt
+********************************
+
+Serial Number = 86
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041048/pdf
+0.00234375
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-04-16_43/extracted/1458-090X_1902-04-16_43_article_4.txt
+********************************
+
+Serial Number = 87
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044675/pdf
+0.00233333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-01-05_2/extracted/1458-090X_1910-01-05_2_article_64.txt
+********************************
+
+Serial Number = 88
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044698/pdf
+0.00233333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-03-02_25/extracted/1458-090X_1910-03-02_25_article_14.txt
+********************************
+
+Serial Number = 89
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043949/pdf
+0.00233333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-11-25_137/extracted/1458-090X_1910-11-25_137_article_84.txt
+********************************
+
+Serial Number = 90
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/50555/pdf
+0.00232692307692
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-02-21_43/extracted/1458-0535_1890-02-21_43_article_4_chapter_2.txt
+********************************
+
+Serial Number = 91
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/17306/pdf
+0.0023064516129
+/srv/data/newspapers/newspapers/fin/1887/1458-2554/1458-2554_1887-12-03_96/extracted/1458-2554_1887-12-03_96_article_1.txt
+********************************
+
+Serial Number = 92
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043370/pdf
+0.00229411764706
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-12-12_145/extracted/1458-090X_1902-12-12_145_article_7.txt
+********************************
+
+Serial Number = 93
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046666/pdf
+0.00228571428571
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-07-09_75/extracted/1458-0950_1910-07-09_75_article_43.txt
+********************************
+
+Serial Number = 94
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450360/pdf
+0.00225
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-02-12_17/extracted/1458-655X_1887-02-12_17_article_2.txt
+********************************
+
+Serial Number = 95
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450293/pdf
+0.00225
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-12-10_142/extracted/1458-655X_1887-12-10_142_article_2.txt
+********************************
+
+Serial Number = 96
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/701120/pdf
+0.00225
+/srv/data/newspapers/newspapers/fin/1910/1457-4632/1457-4632_1910-11-11_129/extracted/1457-4632_1910-11-11_129_supplement_1_article_65.txt
+********************************
+
+Serial Number = 97
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450288/pdf
+0.00225
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-07-07_75/extracted/1458-655X_1887-07-07_75_article_2.txt
+********************************
+
+Serial Number = 98
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1116587/pdf
+0.00218518518519
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-08-19_92/extracted/1458-090X_1890-08-19_92_article_1.txt
+********************************
+
+Serial Number = 99
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041167/pdf
+0.00208108108108
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-08-18_95/extracted/1458-090X_1902-08-18_95_article_19.txt
+********************************
+
+Serial Number = 100
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426660/pdf
+0.00206451612903
+/srv/data/newspapers/newspapers/fin/1877/1457-4721/1457-4721_1877-07-20_87/extracted/1457-4721_1877-07-20_87_supplement_1_article_15_chapter_1.txt
+********************************
+
+Serial Number = 101
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426425/pdf
+0.00205555555556
+/srv/data/newspapers/newspapers/fin/1876/1457-4721/1457-4721_1876-01-14_6/extracted/1457-4721_1876-01-14_6_article_4_chapter_1.txt
+********************************
+
+Serial Number = 102
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/455409/pdf
+0.00203846153846
+/srv/data/newspapers/newspapers/fin/1890/1458-2546/1458-2546_1890-11-16_98/extracted/1458-2546_1890-11-16_98_article_1.txt
+********************************
+
+Serial Number = 103
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/26406/pdf
+0.00202713987474
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-26_170/extracted/1457-4721_1890-07-26_170_article_15.txt
+********************************
+
+Serial Number = 104
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115354/pdf
+0.00202272727273
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-03-06_26/extracted/1458-090X_1890-03-06_26_article_9.txt
+********************************
+
+Serial Number = 105
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/89037/pdf
+0.002
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-10-31_253/extracted/1458-0535_1890-10-31_253_article_4_chapter_3.txt
+********************************
+
+Serial Number = 106
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/431842/pdf
+0.002
+/srv/data/newspapers/newspapers/fin/1877/1458-2740/1458-2740_1877-05-19_20/extracted/1458-2740_1877-05-19_20_article_2.txt
+********************************
+
+Serial Number = 107
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045288/pdf
+0.00191860465116
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-08_90/extracted/1458-090X_1910-08-08_90_article_63.txt
+********************************
+
+Serial Number = 108
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450302/pdf
+0.00183606557377
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-02-24_22/extracted/1458-655X_1887-02-24_22_article_12.txt
+********************************
+
+Serial Number = 109
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/449476/pdf
+0.00181818181818
+/srv/data/newspapers/newspapers/fin/1890/1458-655X/1458-655X_1890-04-01_38/extracted/1458-655X_1890-04-01_38_article_7.txt
+********************************
+
+Serial Number = 110
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/460654/pdf
+0.0018
+/srv/data/newspapers/newspapers/fin/1887/1458-8633/1458-8633_1887-06-30_75/extracted/1458-8633_1887-06-30_75_article_1.txt
+********************************
+
+Serial Number = 111
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/34325/pdf
+0.00175
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-09-16_214/extracted/1457-4721_1890-09-16_214_article_11.txt
+********************************
+
+Serial Number = 112
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1040895/pdf
+0.00175
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-02-17_19/extracted/1458-090X_1902-02-17_19_article_24.txt
+********************************
+
+Serial Number = 113
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041088/pdf
+0.00175
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-05-26_60/extracted/1458-090X_1902-05-26_60_article_2.txt
+********************************
+
+Serial Number = 114
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043462/pdf
+0.00175
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-09-29_113/extracted/1458-090X_1902-09-29_113_article_2.txt
+********************************
+
+Serial Number = 115
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417384/pdf
+0.00171428571429
+/srv/data/newspapers/newspapers/fin/1890/1457-4675/1457-4675_1890-10-31_253/extracted/1457-4675_1890-10-31_253_article_2.txt
+********************************
+
+Serial Number = 116
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/69154/pdf
+0.00168421052632
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-07-11_157/extracted/1458-0535_1890-07-11_157_supplement_3_article_37.txt
+********************************
+
+Serial Number = 117
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/413836/pdf
+0.00167970660147
+/srv/data/newspapers/newspapers/fin/1887/1457-4616/1457-4616_1887-01-28_22/extracted/1457-4616_1887-01-28_22_article_4.txt
+********************************
+
+Serial Number = 118
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/52893/pdf
+0.00167407407407
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-04-28_96/extracted/1458-0535_1887-04-28_96_article_7.txt
+********************************
+
+Serial Number = 119
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/50554/pdf
+0.00166129032258
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-01-25_20/extracted/1458-0535_1890-01-25_20_article_15.txt
+********************************
+
+Serial Number = 120
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045285/pdf
+0.0016170212766
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-09-06_100/extracted/1458-0950_1902-09-06_100_article_14.txt
+********************************
+
+Serial Number = 121
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046649/pdf
+0.0016
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-05-31_59/extracted/1458-0950_1910-05-31_59_article_37.txt
+********************************
+
+Serial Number = 122
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1040882/pdf
+0.00159523809524
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-01-17_6/extracted/1458-090X_1902-01-17_6_article_7.txt
+********************************
+
+Serial Number = 123
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/19876/pdf
+0.00159411764706
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-05-06_103/extracted/1458-0535_1890-05-06_103_supplement_1_article_21.txt
+********************************
+
+Serial Number = 124
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/15723/pdf
+0.00159411764706
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-09-09_208/extracted/1457-4721_1887-09-09_208_article_4.txt
+********************************
+
+Serial Number = 125
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045301/pdf
+0.00157894736842
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-09-07_103/extracted/1458-090X_1910-09-07_103_article_41.txt
+********************************
+
+Serial Number = 126
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1116556/pdf
+0.00156571428571
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-02-01_12/extracted/1458-090X_1890-02-01_12_article_17.txt
+********************************
+
+Serial Number = 127
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044919/pdf
+0.00156115107914
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-04-25_47/extracted/1458-090X_1910-04-25_47_article_3.txt
+********************************
+
+Serial Number = 128
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045295/pdf
+0.0015358056266
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-24_97/extracted/1458-090X_1910-08-24_97_article_22.txt
+********************************
+
+Serial Number = 129
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/420557/pdf
+0.00151266464032
+/srv/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-03-28_71/extracted/1457-4675_1887-03-28_71_article_3.txt
+********************************
+
+Serial Number = 130
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/8310/pdf
+0.00150746268657
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-09-10_209/extracted/1457-4721_1890-09-10_209_article_21.txt
+********************************
+
+Serial Number = 131
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045224/pdf
+0.0015
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-12-02_137/extracted/1458-0950_1902-12-02_137_article_64.txt
+********************************
+
+Serial Number = 132
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/13637/pdf
+0.0015
+/srv/data/newspapers/newspapers/fin/1887/1458-8609/1458-8609_1887-04-23_32/extracted/1458-8609_1887-04-23_32_article_1.txt
+********************************
+
+Serial Number = 133
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115398/pdf
+0.0015
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-11-29_136/extracted/1458-090X_1890-11-29_136_article_43.txt
+********************************
+
+Serial Number = 134
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044903/pdf
+0.00148275862069
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-03-16_31/extracted/1458-090X_1910-03-16_31_article_65.txt
+********************************
+
+Serial Number = 135
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1040886/pdf
+0.00148148148148
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-01-27_10/extracted/1458-090X_1902-01-27_10_article_13.txt
+********************************
+
+Serial Number = 136
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/468564/pdf
+0.00146666666667
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-26_119/extracted/1458-0535_1887-05-26_119_article_6_chapter_1.txt
+********************************
+
+Serial Number = 137
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/380231/pdf
+0.00145703125
+/srv/data/newspapers/newspapers/fin/1887/0355-6913/0355-6913_1887-12-03_144/extracted/0355-6913_1887-12-03_144_article_4.txt
+********************************
+
+Serial Number = 138
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/136726/pdf
+0.00144736842105
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-03-15_61/extracted/1458-0535_1887-03-15_61_article_6.txt
+********************************
+
+Serial Number = 139
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045292/pdf
+0.00144144144144
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-17_94/extracted/1458-090X_1910-08-17_94_article_23.txt
+********************************
+
+Serial Number = 140
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417617/pdf
+0.0014358974359
+/srv/data/newspapers/newspapers/fin/1890/1457-4675/1457-4675_1890-07-02_149/extracted/1457-4675_1890-07-02_149_article_4.txt
+********************************
+
+Serial Number = 141
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/39431/pdf
+0.00140540540541
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-11-28_277/extracted/1457-4721_1890-11-28_277_article_14.txt
+********************************
+
+Serial Number = 142
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/24513/pdf
+0.00140495867769
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-12-09_286/extracted/1457-4721_1887-12-09_286_article_12.txt
+********************************
+
+Serial Number = 143
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/136982/pdf
+0.00140204081633
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-04-23_92/extracted/1458-0535_1887-04-23_92_article_3.txt
+********************************
+
+Serial Number = 144
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/463163/pdf
+0.00139468503937
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-06-30_147/extracted/1458-0535_1887-06-30_147_article_1.txt
+********************************
+
+Serial Number = 145
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044920/pdf
+0.00139285714286
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-04-27_48/extracted/1458-090X_1910-04-27_48_article_38.txt
+********************************
+
+Serial Number = 146
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/114820/pdf
+0.00138573508006
+/srv/data/newspapers/newspapers/fin/1887/1457-4640/1457-4640_1887-03-26_24/extracted/1457-4640_1887-03-26_24_article_5.txt
+********************************
+
+Serial Number = 147
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045106/pdf
+0.00138461538462
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-03-25_33/extracted/1458-0950_1902-03-25_33_article_83.txt
+********************************
+
+Serial Number = 148
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/466995/pdf
+0.00137931034483
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-12_108/extracted/1458-0535_1887-05-12_108_article_6.txt
+********************************
+
+Serial Number = 149
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/90918/pdf
+0.00137719298246
+/srv/data/newspapers/newspapers/fin/1890/1457-4640/1457-4640_1890-12-30_152/extracted/1457-4640_1890-12-30_152_supplement_1_article_343.txt
+********************************
+
+Serial Number = 150
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/800628/pdf
+0.001375
+/srv/data/newspapers/newspapers/fin/1910/1457-4721/1457-4721_1910-01-30_24/extracted/1457-4721_1910-01-30_24_article_10.txt
+********************************
+
+Serial Number = 151
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046595/pdf
+0.00135204081633
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-01-15_5/extracted/1458-0950_1910-01-15_5_article_19.txt
+********************************
+
+Serial Number = 152
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/428768/pdf
+0.00134661354582
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-03-16_62/extracted/1457-4721_1887-03-16_62_article_5.txt
+********************************
+
+Serial Number = 153
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043957/pdf
+0.00133333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-12-09_143/extracted/1458-090X_1910-12-09_143_article_99.txt
+********************************
+
+Serial Number = 154
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/653317/pdf
+0.00133333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-6630/1458-6630_1910-03-03_25/extracted/1458-6630_1910-03-03_25_article_6.txt
+********************************
+
+Serial Number = 155
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417430/pdf
+0.00133333333333
+/srv/data/newspapers/newspapers/fin/1890/1457-4675/1457-4675_1890-01-10_7/extracted/1457-4675_1890-01-10_7_article_3.txt
+********************************
+
+Serial Number = 156
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426360/pdf
+0.00133333333333
+/srv/data/newspapers/newspapers/fin/1876/1457-4721/1457-4721_1876-12-08_146/extracted/1457-4721_1876-12-08_146_supplement_1_article_15_chapter_1.txt
+********************************
+
+Serial Number = 157
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/428780/pdf
+0.00133070866142
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-08-30_199A/extracted/1457-4721_1887-08-30_199A_article_16.txt
+********************************
+
+Serial Number = 158
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/95614/pdf
+0.00132235701906
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-05_152/extracted/1457-4721_1890-07-05_152_article_6.txt
+********************************
+
+Serial Number = 159
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045243/pdf
+0.00132026143791
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-09-25_108/extracted/1458-0950_1902-09-25_108_article_44.txt
+********************************
+
+Serial Number = 160
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041034/pdf
+0.00131457800512
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-03-14_30/extracted/1458-090X_1902-03-14_30_article_21.txt
+********************************
+
+Serial Number = 161
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1116574/pdf
+0.00131434184676
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-07-22_80/extracted/1458-090X_1890-07-22_80_article_12.txt
+********************************
+
+Serial Number = 162
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426689/pdf
+0.00131053604436
+/srv/data/newspapers/newspapers/fin/1877/1457-4721/1457-4721_1877-06-18_73/extracted/1457-4721_1877-06-18_73_article_1.txt
+********************************
+
+Serial Number = 163
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450343/pdf
+0.00130857142857
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-01-15_5/extracted/1458-655X_1887-01-15_5_article_12.txt
+********************************
+
+Serial Number = 164
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/650046/pdf
+0.0013
+/srv/data/newspapers/newspapers/fin/1910/fk19511/fk19511_1910-06-17_137/extracted/fk19511_1910-06-17_137_article_3.txt
+********************************
+
+Serial Number = 165
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/15307/pdf
+0.0013
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-04-23_92/extracted/1458-0535_1890-04-23_92_article_15.txt
+********************************
+
+Serial Number = 166
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/629690/pdf
+0.0013
+/srv/data/newspapers/newspapers/fin/1910/fk10105/fk10105_1910-01-15_5/extracted/fk10105_1910-01-15_5_article_2.txt
+********************************
+
+Serial Number = 167
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041105/pdf
+0.0012995049505
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-07-07_77/extracted/1458-090X_1902-07-07_77_article_28.txt
+********************************
+
+Serial Number = 168
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450257/pdf
+0.00129787234043
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-06-30_72/extracted/1458-655X_1887-06-30_72_article_10.txt
+********************************
+
+Serial Number = 169
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/87046/pdf
+0.00129523809524
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-06-14_135/extracted/1458-0535_1890-06-14_135_article_12.txt
+********************************
+
+Serial Number = 170
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/416961/pdf
+0.00129148629149
+/srv/data/newspapers/newspapers/fin/1876/1457-4675/1457-4675_1876-08-31_102/extracted/1457-4675_1876-08-31_102_article_4.txt
+********************************
+
+Serial Number = 171
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/702597/pdf
+0.00128947368421
+/srv/data/newspapers/newspapers/fin/1902/fk10471/fk10471_1902-06-25_142/extracted/fk10471_1902-06-25_142_article_5.txt
+********************************
+
+Serial Number = 172
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/482711/pdf
+0.00128781793842
+/srv/data/newspapers/newspapers/fin/1877/1457-4616/1457-4616_1877-06-30_50/extracted/1457-4616_1877-06-30_50_article_4.txt
+********************************
+
+Serial Number = 173
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/89037/pdf
+0.00128758169935
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-10-31_253/extracted/1458-0535_1890-10-31_253_supplement_3_article_37.txt
+********************************
+
+Serial Number = 174
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044681/pdf
+0.00128571428571
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-01-21_8/extracted/1458-090X_1910-01-21_8_article_66.txt
+********************************
+
+Serial Number = 175
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043958/pdf
+0.00128571428571
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-12-16_146/extracted/1458-090X_1910-12-16_146_article_95.txt
+********************************
+
+Serial Number = 176
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/50493/pdf
+0.00128095238095
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-06-23_142/extracted/1458-0535_1887-06-23_142_article_5.txt
+********************************
+
+Serial Number = 177
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379251/pdf
+0.00127920792079
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-06-22_142/extracted/0355-6913_1890-06-22_142_article_5.txt
+********************************
+
+Serial Number = 178
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/17001/pdf
+0.00127777777778
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-01-04_3/extracted/1458-0535_1890-01-04_3_article_11_chapter_8.txt
+********************************
+
+Serial Number = 179
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/420360/pdf
+0.00126315789474
+/srv/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-06-30_147/extracted/1457-4675_1887-06-30_147_article_6.txt
+********************************
+
+Serial Number = 180
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/464153/pdf
+0.00126277372263
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-19_114/extracted/1458-0535_1887-05-19_114_supplement_2_article_19.txt
+********************************
+
+Serial Number = 181
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/37498/pdf
+0.00125609756098
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-01-11_7/extracted/1457-4721_1887-01-11_7_article_18.txt
+********************************
+
+Serial Number = 182
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426636/pdf
+0.00125
+/srv/data/newspapers/newspapers/fin/1877/1457-4721/1457-4721_1877-03-02_27/extracted/1457-4721_1877-03-02_27_article_7.txt
+********************************
+
+Serial Number = 183
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045259/pdf
+0.00125
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-11-01_124/extracted/1458-0950_1902-11-01_124_article_51.txt
+********************************
+
+Serial Number = 184
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/416961/pdf
+0.00125
+/srv/data/newspapers/newspapers/fin/1876/1457-4675/1457-4675_1876-08-31_102/extracted/1457-4675_1876-08-31_102_article_18.txt
+********************************
+
+Serial Number = 185
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426369/pdf
+0.00124930747922
+/srv/data/newspapers/newspapers/fin/1876/1457-4721/1457-4721_1876-01-03_1/extracted/1457-4721_1876-01-03_1_article_5.txt
+********************************
+
+Serial Number = 186
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/659480/pdf
+0.00124583333333
+/srv/data/newspapers/newspapers/fin/1910/0357-9298/0357-9298_1910-08-03_31/extracted/0357-9298_1910-08-03_31_article_5.txt
+********************************
+
+Serial Number = 187
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/50496/pdf
+0.00124242424242
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-08-31_200/extracted/1458-0535_1887-08-31_200_article_7.txt
+********************************
+
+Serial Number = 188
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/702559/pdf
+0.00123673469388
+/srv/data/newspapers/newspapers/fin/1902/fk10471/fk10471_1902-05-07_104/extracted/fk10471_1902-05-07_104_article_5.txt
+********************************
+
+Serial Number = 189
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041038/pdf
+0.00123391812865
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-03-21_33/extracted/1458-090X_1902-03-21_33_article_14.txt
+********************************
+
+Serial Number = 190
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/467586/pdf
+0.00122033898305
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-05-01_99/extracted/1458-0535_1887-05-01_99_article_6_chapter_1.txt
+********************************
+
+Serial Number = 191
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/413829/pdf
+0.00121748878924
+/srv/data/newspapers/newspapers/fin/1887/1457-4616/1457-4616_1887-02-05_53/extracted/1457-4616_1887-02-05_53_article_4.txt
+********************************
+
+Serial Number = 192
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044686/pdf
+0.00121714285714
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-01-31_12/extracted/1458-090X_1910-01-31_12_article_51.txt
+********************************
+
+Serial Number = 193
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/462083/pdf
+0.00121621621622
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-03-11_58/extracted/1458-0535_1887-03-11_58_supplement_2_article_28.txt
+********************************
+
+Serial Number = 194
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/804038/pdf
+0.00121592442645
+/srv/data/newspapers/newspapers/fin/1910/1458-0543/1458-0543_1910-12-20_149B/extracted/1458-0543_1910-12-20_149B_article_6.txt
+********************************
+
+Serial Number = 195
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/28964/pdf
+0.00121285140562
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-07-09_155/extracted/1457-4721_1890-07-09_155_article_12.txt
+********************************
+
+Serial Number = 196
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/420508/pdf
+0.00121052631579
+/srv/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-08-18_189/extracted/1457-4675_1887-08-18_189_article_3.txt
+********************************
+
+Serial Number = 197
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/75405/pdf
+0.00120689655172
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-01-28_22/extracted/1458-0535_1887-01-28_22_supplement_2_article_26_chapter_4.txt
+********************************
+
+Serial Number = 198
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/428840/pdf
+0.00119598765432
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-25_46/extracted/1457-4721_1887-02-25_46_article_4.txt
+********************************
+
+Serial Number = 199
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/114839/pdf
+0.00118181818182
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-02-11_34/extracted/1457-4721_1887-02-11_34_article_11.txt
+********************************
+
+Serial Number = 200
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/50561/pdf
+0.00118134715026
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-11-09_261/extracted/1458-0535_1890-11-09_261_article_14.txt
+********************************
+
+Serial Number = 201
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/449486/pdf
+0.00117948717949
+/srv/data/newspapers/newspapers/fin/1890/1458-655X/1458-655X_1890-04-08_41/extracted/1458-655X_1890-04-08_41_article_4.txt
+********************************
+
+Serial Number = 202
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/13910/pdf
+0.001175
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-05-13_109/extracted/1458-0535_1890-05-13_109_article_7_chapter_4.txt
+********************************
+
+Serial Number = 203
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/380264/pdf
+0.00117132867133
+/srv/data/newspapers/newspapers/fin/1887/0355-6913/0355-6913_1887-04-30_51/extracted/0355-6913_1887-04-30_51_article_6.txt
+********************************
+
+Serial Number = 204
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/675466/pdf
+0.00116666666667
+/srv/data/newspapers/newspapers/fin/1910/fk10318/fk10318_1910-07-22_26/extracted/fk10318_1910-07-22_26_article_6.txt
+********************************
+
+Serial Number = 205
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/416890/pdf
+0.00116666666667
+/srv/data/newspapers/newspapers/fin/1876/1457-4675/1457-4675_1876-06-03_65/extracted/1457-4675_1876-06-03_65_article_6.txt
+********************************
+
+Serial Number = 206
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379319/pdf
+0.00116352201258
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-04-27_96/extracted/0355-6913_1890-04-27_96_article_7.txt
+********************************
+
+Serial Number = 207
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/129998/pdf
+0.00115987460815
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-03-01_49/extracted/1458-0535_1887-03-01_49_supplement_1_article_14.txt
+********************************
+
+Serial Number = 208
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043365/pdf
+0.00115789473684
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-12-01_140/extracted/1458-090X_1902-12-01_140_article_31.txt
+********************************
+
+Serial Number = 209
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/89004/pdf
+0.00115778688525
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-06-28_145/extracted/1458-0535_1887-06-28_145_supplement_1_article_15.txt
+********************************
+
+Serial Number = 210
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/90918/pdf
+0.00115740740741
+/srv/data/newspapers/newspapers/fin/1890/1457-4640/1457-4640_1890-12-30_152/extracted/1457-4640_1890-12-30_152_supplement_1_article_185.txt
+********************************
+
+Serial Number = 211
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417335/pdf
+0.00115384615385
+/srv/data/newspapers/newspapers/fin/1877/1457-4675/1457-4675_1877-01-13_5/extracted/1457-4675_1877-01-13_5_article_10.txt
+********************************
+
+Serial Number = 212
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/417302/pdf
+0.00115384615385
+/srv/data/newspapers/newspapers/fin/1877/1457-4675/1457-4675_1877-04-19_46/extracted/1457-4675_1877-04-19_46_article_6.txt
+********************************
+
+Serial Number = 213
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/450368/pdf
+0.00115175375805
+/srv/data/newspapers/newspapers/fin/1887/1458-655X/1458-655X_1887-05-21_57/extracted/1458-655X_1887-05-21_57_article_3.txt
+********************************
+
+Serial Number = 214
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/637157/pdf
+0.00115017064846
+/srv/data/newspapers/newspapers/fin/1902/0356-1356/0356-1356_1902-01-13_9/extracted/0356-1356_1902-01-13_9_article_5.txt
+********************************
+
+Serial Number = 215
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379271/pdf
+0.00114864864865
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-05-11_108/extracted/0355-6913_1890-05-11_108_article_4.txt
+********************************
+
+Serial Number = 216
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/133113/pdf
+0.00114658634538
+/srv/data/newspapers/newspapers/fin/1887/1457-4640/1457-4640_1887-02-09_11/extracted/1457-4640_1887-02-09_11_article_5.txt
+********************************
+
+Serial Number = 217
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/69161/pdf
+0.00114603174603
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-09-21_219/extracted/1458-0535_1890-09-21_219_article_9_chapter_5.txt
+********************************
+
+Serial Number = 218
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/468477/pdf
+0.00114583333333
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-08-11_183/extracted/1458-0535_1887-08-11_183_article_6_chapter_1.txt
+********************************
+
+Serial Number = 219
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/468727/pdf
+0.00114417177914
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-11-11_262/extracted/1458-0535_1887-11-11_262_supplement_2_article_20.txt
+********************************
+
+Serial Number = 220
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379251/pdf
+0.00114414414414
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-06-22_142/extracted/0355-6913_1890-06-22_142_article_7.txt
+********************************
+
+Serial Number = 221
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426459/pdf
+0.00114318181818
+/srv/data/newspapers/newspapers/fin/1876/1457-4721/1457-4721_1876-02-18_21/extracted/1457-4721_1876-02-18_21_article_3.txt
+********************************
+
+Serial Number = 222
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/42983/pdf
+0.00114258734655
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-02-23_45/extracted/1458-0535_1890-02-23_45_article_7.txt
+********************************
+
+Serial Number = 223
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/37549/pdf
+0.00114084507042
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-01-21_16/extracted/1458-0535_1890-01-21_16_article_13_chapter_9.txt
+********************************
+
+Serial Number = 224
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/786252/pdf
+0.00113854489164
+/srv/data/newspapers/newspapers/fin/1910/fk14837/fk14837_1910-12-02_139/extracted/fk14837_1910-12-02_139_article_4.txt
+********************************
+
+Serial Number = 225
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046676/pdf
+0.00113836477987
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-10-01_111/extracted/1458-0950_1910-10-01_111_article_50.txt
+********************************
+
+Serial Number = 226
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426591/pdf
+0.00113793103448
+/srv/data/newspapers/newspapers/fin/1877/1457-4721/1457-4721_1877-01-08_4/extracted/1457-4721_1877-01-08_4_supplement_1_article_14.txt
+********************************
+
+Serial Number = 227
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/646984/pdf
+0.0011334519573
+/srv/data/newspapers/newspapers/fin/1910/0782-7024/0782-7024_1910-08-24_194/extracted/0782-7024_1910-08-24_194_article_5.txt
+********************************
+
+Serial Number = 228
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/420629/pdf
+0.00113286713287
+/srv/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-04-21_90/extracted/1457-4675_1887-04-21_90_article_2.txt
+********************************
+
+Serial Number = 229
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/53017/pdf
+0.0011320754717
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-03-18_64/extracted/1458-0535_1890-03-18_64_article_9.txt
+********************************
+
+Serial Number = 230
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1116569/pdf
+0.00112962962963
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-03-04_25/extracted/1458-090X_1890-03-04_25_article_12.txt
+********************************
+
+Serial Number = 231
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/34334/pdf
+0.00112790697674
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-12-18_294/extracted/1457-4721_1890-12-18_294_article_19.txt
+********************************
+
+Serial Number = 232
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1043945/pdf
+0.001125
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-11-16_133/extracted/1458-090X_1910-11-16_133_article_19.txt
+********************************
+
+Serial Number = 233
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041046/pdf
+0.00112419006479
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-04-11_41/extracted/1458-090X_1902-04-11_41_article_19.txt
+********************************
+
+Serial Number = 234
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1115376/pdf
+0.00112195121951
+/srv/data/newspapers/newspapers/fin/1890/1458-090X/1458-090X_1890-09-13_103/extracted/1458-090X_1890-09-13_103_article_25.txt
+********************************
+
+Serial Number = 235
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/19324/pdf
+0.00111811023622
+/srv/data/newspapers/newspapers/fin/1890/1457-4721/1457-4721_1890-01-23_18/extracted/1457-4721_1890-01-23_18_article_12.txt
+********************************
+
+Serial Number = 236
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046657/pdf
+0.00111688311688
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-06-18_67/extracted/1458-0950_1910-06-18_67_article_36.txt
+********************************
+
+Serial Number = 237
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041037/pdf
+0.00111688311688
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-03-19_32/extracted/1458-090X_1902-03-19_32_article_13.txt
+********************************
+
+Serial Number = 238
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/90918/pdf
+0.00111666666667
+/srv/data/newspapers/newspapers/fin/1890/1457-4640/1457-4640_1890-12-30_152/extracted/1457-4640_1890-12-30_152_supplement_1_article_337.txt
+********************************
+
+Serial Number = 239
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/420493/pdf
+0.0011157455683
+/srv/data/newspapers/newspapers/fin/1887/1457-4675/1457-4675_1887-07-19_163/extracted/1457-4675_1887-07-19_163_article_3.txt
+********************************
+
+Serial Number = 240
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045290/pdf
+0.00111544461778
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-08-12_92/extracted/1458-090X_1910-08-12_92_article_24.txt
+********************************
+
+Serial Number = 241
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/462491/pdf
+0.00111428571429
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-03-18_64/extracted/1458-0535_1887-03-18_64_supplement_1_article_17.txt
+********************************
+
+Serial Number = 242
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/428828/pdf
+0.00111332312404
+/srv/data/newspapers/newspapers/fin/1887/1457-4721/1457-4721_1887-05-03_100A/extracted/1457-4721_1887-05-03_100A_article_6.txt
+********************************
+
+Serial Number = 243
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/416964/pdf
+0.00111111111111
+/srv/data/newspapers/newspapers/fin/1876/1457-4675/1457-4675_1876-06-17_71/extracted/1457-4675_1876-06-17_71_article_15.txt
+********************************
+
+Serial Number = 244
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044683/pdf
+0.00111111111111
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-01-26_10/extracted/1458-090X_1910-01-26_10_article_84.txt
+********************************
+
+Serial Number = 245
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/702499/pdf
+0.0011095505618
+/srv/data/newspapers/newspapers/fin/1902/fk10471/fk10471_1902-02-22_44/extracted/fk10471_1902-02-22_44_article_4.txt
+********************************
+
+Serial Number = 246
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/90918/pdf
+0.00110687022901
+/srv/data/newspapers/newspapers/fin/1890/1457-4640/1457-4640_1890-12-30_152/extracted/1457-4640_1890-12-30_152_supplement_1_article_193.txt
+********************************
+
+Serial Number = 247
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/69147/pdf
+0.00110682492582
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-05-17_112/extracted/1458-0535_1890-05-17_112_article_6.txt
+********************************
+
+Serial Number = 248
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/659461/pdf
+0.00110454545455
+/srv/data/newspapers/newspapers/fin/1910/0357-9298/0357-9298_1910-03-16_11/extracted/0357-9298_1910-03-16_11_article_4.txt
+********************************
+
+Serial Number = 249
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/413824/pdf
+0.0010990990991
+/srv/data/newspapers/newspapers/fin/1887/1457-4616/1457-4616_1887-02-01_49/extracted/1457-4616_1887-02-01_49_article_4.txt
+********************************
+
+Serial Number = 250
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1044676/pdf
+0.00109160305344
+/srv/data/newspapers/newspapers/fin/1910/1458-090X/1458-090X_1910-01-10_3/extracted/1458-090X_1910-01-10_3_article_34.txt
+********************************
+
+Serial Number = 251
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/78955/pdf
+0.0010890052356
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-02-26_47/extracted/1458-0535_1890-02-26_47_article_6.txt
+********************************
+
+Serial Number = 252
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1041155/pdf
+0.00108415841584
+/srv/data/newspapers/newspapers/fin/1902/1458-090X/1458-090X_1902-07-21_83/extracted/1458-090X_1902-07-21_83_article_74.txt
+********************************
+
+Serial Number = 253
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045730/pdf
+0.00108333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-12-29_148/extracted/1458-0950_1910-12-29_148_article_26.txt
+********************************
+
+Serial Number = 254
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/426341/pdf
+0.00108333333333
+/srv/data/newspapers/newspapers/fin/1876/1457-4721/1457-4721_1876-11-20_138/extracted/1457-4721_1876-11-20_138_article_6_chapter_1.txt
+********************************
+
+Serial Number = 255
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045262/pdf
+0.00108333333333
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-07-15_77/extracted/1458-0950_1902-07-15_77_article_86.txt
+********************************
+
+Serial Number = 256
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1046609/pdf
+0.00108333333333
+/srv/data/newspapers/newspapers/fin/1910/1458-0950/1458-0950_1910-02-17_19/extracted/1458-0950_1910-02-17_19_article_10.txt
+********************************
+
+Serial Number = 257
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/379367/pdf
+0.00107911392405
+/srv/data/newspapers/newspapers/fin/1890/0355-6913/0355-6913_1890-11-16_267/extracted/0355-6913_1890-11-16_267_article_5.txt
+********************************
+
+Serial Number = 258
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/1045242/pdf
+0.00107894736842
+/srv/data/newspapers/newspapers/fin/1902/1458-0950/1458-0950_1902-09-23_107/extracted/1458-0950_1902-09-23_107_article_16.txt
+********************************
+
+Serial Number = 259
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/136737/pdf
+0.00107843137255
+/srv/data/newspapers/newspapers/fin/1890/1458-0535/1458-0535_1890-07-15_160/extracted/1458-0535_1890-07-15_160_supplement_1_article_19.txt
+********************************
+
+Serial Number = 260
+http://digi.kansalliskirjasto.fi/sanomalehti/binding/57395/pdf
+0.00107731958763
+/srv/data/newspapers/newspapers/fin/1887/1458-0535/1458-0535_1887-09-18_216/extracted/1458-0535_1887-09-18_216_article_10.txt
+********************************
+
