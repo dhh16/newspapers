@@ -56,6 +56,6 @@ def hfst_words(wordlist):
         for s in wordlist:
             f.write(s)
     pr = os.popen("cat " + tempfilepath + "| hfst-optimized-lookup /srv/bin/omorfi-omor.analyse.hfst")
-    out = pr.read()
+    out = [l for l in pr]
     pr.close()
     return out
