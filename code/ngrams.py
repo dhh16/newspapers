@@ -165,7 +165,7 @@ def get_differences_dict(training_dict, base_dict):
     differences_dict = {}
     for key in final_diction1:
         if key in final_diction3:
-            difference = round((final_diction1[key][1] + 1) / (final_diction3[key][1] + 1), 5)
+            difference = round(((final_diction1[key][1]) / (final_diction3[key][1])), 5)
             count_in_1 = final_diction1[key][0]
             count_in_2 = final_diction3[key][0]
             differences_dict[key] = [difference, count_in_1, count_in_2]
