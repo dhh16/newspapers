@@ -42,7 +42,7 @@ def lemmatized_contents_str_las(string):
     workdir_check()
     tempfilepath = workdir + "tmp_lemma_las_str"
     with codecs.open(tempfilepath, 'w') as f:
-        f.write(string)
+        f.write(unicode(string).encode('utf8'))
 
     return lemmatize_tmpfile_las(tempfilepath)
 
