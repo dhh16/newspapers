@@ -65,8 +65,11 @@ if __name__ == "__main__":
 
     #info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
     #freqs = info_all_data_papers[2]
-    freqs_certain_paper = frequencies_newspapers(migr_paths, years, element, ['1457-4527'])
+    nuor = ['0355-2047','1458-2619','1458-8595','0356-1356']
+    vanha = ['1457-4721','0355-6913','1458-090X','1458-0535','1458-0543']
+    freqs_certain_paper = frequencies_newspapers(migr_paths, years, element, nuor)
     freqs = freqs_certain_paper[2]
+
     for iss in freqs:
         print iss, len(freqs[iss])
         for i in xrange(len(freqs[iss])):
