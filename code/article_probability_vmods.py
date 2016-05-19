@@ -136,7 +136,6 @@ def write_Final_readable():
         e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +"\n" + e[0][16].text + "\n" + str(sorted_list[j][1]) + "\n" + sorted_list[j][0] + "\n"+ "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") +"\n")
-article_prob()
 
 
 def write_final_readable_textfilelinks():
@@ -164,4 +163,3 @@ def write_final_readable_textfilelinks():
         # e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +"\n" + str(sorted_list[j][1]) + "\n"+ "86.50.168.175/" + (sorted_list[j][0])[4:] + "\n"+ "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") +"\n")
-article_prob()
