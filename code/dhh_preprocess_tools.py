@@ -13,9 +13,9 @@ def workdir_check():
     if not os.path.isdir(workdir):
         os.mkdir(workdir)
 
-def lemmatize_tmpfile(tempfilepath):
+def lemmatize_tmpfile_las(tempfilepath):
     """
-    Shared lemmatization routines by _file and _str
+    Shared lemmatization routines by _file and _str with las
     """
     pr = os.popen("/srv/bin/las lemmatize --locale fi --max-edit-distance 2 " + tempfilepath)
     pr.close()
@@ -27,7 +27,7 @@ def lemmatize_tmpfile(tempfilepath):
 
     return contents
 
-def lemmatized_contents_file(filepath):
+def lemmatized_contents_file_las(filepath):
     """
     Lemmatizes filepath with las and returns lemmatized contents as a string.
     """
@@ -35,22 +35,22 @@ def lemmatized_contents_file(filepath):
     year, iss, date, number, date_number, item = get_info_for_item(filepath)
     tempfilepath = workdir+item+".txt"
     shutil.copy(filepath, tempfilepath)
-    return lemmatize_tmpfile(tempfilepath)
+    return lemmatize_tmpfile_las(tempfilepath)
 
 
-def lemmatized_contents_str(string):
+def lemmatized_contents_str_las(string):
     workdir_check()
     tempfilepath = workdir + "tmp_lemma_str"
     with codecs.open(tempfilepath, 'w') as f:
         f.write(string)
 
-    return lemmatize_tmpfile(tempfilepath)
+    return lemmatize_tmpfile_las(tempfilepath)
 
 def hfst_filter_words(wordlist, type):
     """
     type = VERB|AUX|etc
     """
-    with codecs.oepn(workdir + "hfsttmp.txt") as f:
+    with codecs.open(workdir + "hfsttmp.txt") as f:
         for word in wordlist:
             f.write(word + '\n')
     pr = os.popen("")
