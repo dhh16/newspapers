@@ -130,12 +130,12 @@ def write_Final_readable():
             xmml_path = sorted_list[j][0][:start] + "alto" + sorted_list[j][0][start + 9:end_sup] + "001.xml"
         elif end_sec > 0:
             xmml_path = sorted_list[j][0][:start] + "alto" + sorted_list[j][0][start + 9:end_sec] + "001.xml"
-            else:
+        else:
             end = sorted_list[j][0].find("article")
-                xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
+            xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
         e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +"\n" + e[0][16].text + "\n" + str(sorted_list[j][1]) + "\n" + sorted_list[j][0] + "\n"+ "********************************" + "\n")
-            out_final_readable.write(out_xff.encode("utf") +"\n")
+        out_final_readable.write(out_xff.encode("utf") +"\n")
 article_prob()
 
 
@@ -163,5 +163,5 @@ def write_final_readable_textfilelinks():
         #         xmml_path = sorted_list[j][0][:start]+"alto"+sorted_list[j][0][start+9:end]+"001.xml"
         # e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +"\n" + str(sorted_list[j][1]) + "\n"+ "86.50.168.175/" + (sorted_list[j][0])[4:] + "\n"+ "********************************" + "\n")
-            out_final_readable.write(out_xff.encode("utf") +"\n")
+        out_final_readable.write(out_xff.encode("utf") +"\n")
 article_prob()
