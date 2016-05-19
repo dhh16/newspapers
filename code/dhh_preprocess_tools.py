@@ -82,6 +82,6 @@ def hfst_words(wordlist, filter=None):
                         else:
                             out.append(lemma)
                     elif '?' in rsplit[0]:
-                        out.append(lemma)
+                        out.append(w_o)
     pr.close()
     return out
