@@ -49,6 +49,8 @@ def lemmatized_contents_str_las(string):
 def hfst_words(wordlist):
     """
     runs hfsts on wordlist
+
+    returns list of unicode str
     """
     workdir_check()
     tempfilepath = workdir + "tmp_lemma_hfst_str"
@@ -69,6 +71,6 @@ def hfst_words(wordlist):
             if rest:
                 rsplit = rest.split(']')
                 if rsplit[0] and rsplit[0][1:].startswith("WORD_ID"):
-                    out.append(rsplit[0][9:])
+                    out.append(rsplit[0][9:].decode('utf8'))
     pr.close()
     return out
