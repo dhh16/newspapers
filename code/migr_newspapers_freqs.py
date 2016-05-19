@@ -8,12 +8,13 @@ import numpy as np
 
 from get_training_data_paths import get_info_for_item
 
+basepath = "/srv/data/newspapers/newspapers/fin/"
+
 def n_elements_by_newspaper(years, newspaper, element):
     """TODO: Docstring for number_elements_newspaper.
     """
     nums = np.zeros(years.shape)
     for y_i, year in enumerate(years):
-        print year
         items = glob.glob(basepath + str(year) + '/' + newspaper + '/*/extracted/*' + element + '*.txt')
         nums[y_i] = len(items)
     return nums
@@ -31,12 +32,14 @@ def frequencies_newspapers(migr_paths, years, element, papers=None):
         year = int(year)
         if year not in years:
             continue
+        print year, iss
         if iss not in newspapers_yearly_migr_elems:
             if not papers or (papers and iss in papers):
                 newspapers_yearly_migr_elems[iss] = np.zeros(years.shape)
         newspapers_yearly_migr_elems[iss][year-start_year] += 1
 
     for iss in newspapers_yearly_migr_elems:
+        print iss
         n_years = n_elements_by_newspaper(years, iss, element)
         newspapers_yearly_all_elems[iss] = n_years
         newspapers_yearly_migr_freq[iss] = newspapers_yearly_migr_elems[iss]/n_years
@@ -49,20 +52,20 @@ if __name__ == "__main__":
     end_year = 1910
     print "range", start_year, end_year
     all_years = os.listdir(basepath)
-    years = [y for y in all_years if int(y) >= start_year and int(y) <= end_year]
+    years = [int(y) for y in all_years if int(y) >= start_year and int(y) <= end_year]
     years = np.sort(years)
 
     element = 'article'
-    sum_all_articles = n_elements_by_newspaper(year, *, element)
+    #sum_all_articles = n_elements_by_newspaper(year, *, element)
     # similarly for each specific newspaper
 
     with open(migration_element_paths_file, 'r') as f:
         migr_paths = [l.strip() for l in f]
 
-    info_all_data_papers = frequencies_newspapers(migr_paths, years)
+    info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
     freqs = info_all_data_papers[2]
     for iss in freqs:
-        print iss + "\n"
+        print iss
         for i in np.arange(len(freqs[iss])):
             print years[i], freqs[iss][i]
     #freqs_certain_paper = frequencies_newspapers(migr_paths, years, 'code')
