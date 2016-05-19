@@ -5,6 +5,8 @@ from codecs import open
 # from operator import itemgetter
 # import numpy as np
 # import glob
+import dhh_preprocess_tools
+
 nltk.download('punkt')
 
 input_string = ""
@@ -95,8 +97,9 @@ training_articles = read_files_from_textfile_to_list("../data/training_data_arti
 
 input_string1 = string_from_list(training_articles)
 tokens1 = token_func(input_string1)
-length_of_tokenlist1 = len(tokens1)
-diction1 = token_dict(tokens1)
+lemmatized_tokens1 = dhh_preprocess_tools.hfst_words(tokens1, filter='VERB', 'NOUN', 'ADJ', 'PROPN')
+length_of_tokenlist1 = len(lemmatized_tokens1)
+diction1 = token_dict(lemmatized_tokens1)
 final_diction1 = token_percentage(diction1, length_of_tokenlist1)
 print final_diction1
 
@@ -117,12 +120,13 @@ input_string3 = string_from_list(base_articles)
 print "\ntokenizing..."
 tokens3 = token_func(input_string3)
 print "\nadding first tokens to this one..."
-tokens3.extend(tokens1)
+tokens3.extend(lemmatized_tokens1)
+lemmatized_tokens3 = dhh_preprocess_tools.hfst_words(tokens3, filter='VERB', 'NOUN', 'ADJ', 'PROPN')
 print "\ncounting length: "
-length_of_tokenlist3 = len(tokens3)
+length_of_tokenlist3 = len(lemmatized_tokens3)
 print ("\n" + str(length_of_tokenlist3) + " tokens")
 print "\ncreating dictionary..."
-diction3 = token_dict(tokens3)
+diction3 = token_dict(lemmatized_tokens3)
 print "\ncalculating percentages..."
 final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 
@@ -140,27 +144,47 @@ final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 # print final_diction2
 
 
-differences_dict = {}
-for key in final_diction1:
-    if key in final_diction3:
-        difference = round(final_diction1[key][1] - final_diction3[key][1], 5)
-        count_in_1 = final_diction1[key][0]
-        count_in_2 = final_diction3[key][0]
-        differences_dict[key] = [difference, count_in_1, count_in_2]
+def get_differences_dict(training_dict, base_dict):
+    differences_dict = {}
+    for key in final_diction1:
+        if key in final_diction3:
+            difference = round(final_diction1[key][1] - final_diction3[key][1], 5)
+            count_in_1 = final_diction1[key][0]
+            count_in_2 = final_diction3[key][0]
+            differences_dict[key] = [difference, count_in_1, count_in_2]
+    return differences_dict
+
+
+def sort_and_shorten_results(differences_dict):
+    sorted_list = sorted(differences_dict.items(), key=lambda i: i[1][0], reverse=True)
+    shortened_list = sorted_list[:500]
+    return shortened_list
+
+
+differences_dict = get_differences_dict(final_diction1, final_diction3)
+# for key in final_diction1:
+#     if key in final_diction3:
+#         difference = round(final_diction1[key][1] - final_diction3[key][1], 5)
+#         count_in_1 = final_diction1[key][0]
+#         count_in_2 = final_diction3[key][0]
+#         differences_dict[key] = [difference, count_in_1, count_in_2]
 
 # print differences_dict
 
 # if you want to sort with some other item in the list change the secnod position in the lambda
-sorted_list = sorted(differences_dict.items(), key=lambda i: i[1][0], reverse=True)
+
+results_list = sort_and_shorten_results(differences_dict)
+
+# sorted_list = sorted(differences_dict.items(), key=lambda i: i[1][0], reverse=True)
 
 # print sorted_list
 
-shortened_list = sorted_list[:500]
+# shortened_list = sorted_list[:500]
 
 
 def write_pretty_output(output_file):
     out_f = open(output_file, 'w')
-    for item in shortened_list:
+    for item in results_list:
         outputline = unicode(item[0] + "   " +
                              str(item[1][0] * 100) +
                              " %  " +
@@ -173,7 +197,7 @@ def write_pretty_output(output_file):
 
 def write_machinereadable_output(output_file):
     out_f = open(output_file, 'w')
-    for item in shortened_list:
+    for item in results_list:
         outputline = unicode(item[0] + "," +
                              str(item[1][0] * 100) + "\n")
 
@@ -182,5 +206,5 @@ def write_machinereadable_output(output_file):
 
 
 print "\nwriting top 500 into outputfile\n"
-write_pretty_output("really_nice_output_file_500_stopwords_filtered.txt")
-write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered.txt")
+write_pretty_output("really_nice_output_file_500_stopwords_filtered_lemmatized.txt")
+write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered_lemmatized.txt")
