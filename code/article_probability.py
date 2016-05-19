@@ -115,6 +115,7 @@ def article_prob():
 
 def write_Final_readable():
     out_final_readable = open("Final_hyperlink.txt","w")
+    out_final_machine = open("Final_machinereadable.txt", "w")
     f = open("Final","r")
     answer ={}
     sorted_list2 ={}
@@ -140,7 +141,12 @@ def write_Final_readable():
                             + "\n" + sorted_list[j][0] + "\n"+
                             "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") +"\n")
+
+        out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
+        out_final_machine.write(out_machine.encode("utf") +"\n")
+
     out_final_readable.close()
+    out_final_machine.close()
 
 article_prob()
 
