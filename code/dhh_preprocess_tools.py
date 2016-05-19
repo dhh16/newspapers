@@ -40,18 +40,22 @@ def lemmatized_contents_file_las(filepath):
 
 def lemmatized_contents_str_las(string):
     workdir_check()
-    tempfilepath = workdir + "tmp_lemma_str"
+    tempfilepath = workdir + "tmp_lemma_las_str"
     with codecs.open(tempfilepath, 'w') as f:
         f.write(string)
 
     return lemmatize_tmpfile_las(tempfilepath)
 
-def hfst_filter_words(wordlist, type):
+def hfst_words(wordlist):
     """
-    type = VERB|AUX|etc
+    runs hfsts on wordlist
     """
-    with codecs.open(workdir + "hfsttmp.txt") as f:
-        for word in wordlist:
-            f.write(word + '\n')
-    pr = os.popen("")
+    workdir_check()
+    tempfilepath = workdir + "tmp_lemma_hfst_str"
+    with codecs.open(tempfilepath, 'w') as f:
+        for s in wordlist:
+            f.write(s)
+    pr = os.popen("cat " + tempfilepath + "| hfst-optimized-lookup /srv/bin/omorfi-omor.analyse.hfst")
+    out = pr.read()
     pr.close()
+    return out
