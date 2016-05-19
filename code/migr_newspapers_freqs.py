@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
     #info_all_data_papers = frequencies_newspapers(migr_paths, years, element)
     #freqs = info_all_data_papers[2]
-    freqs_certain_paper = frequencies_newspapers(migr_paths, years, '1457-4721')
+    freqs_certain_paper = frequencies_newspapers(migr_paths, years, element, ['1457-4721'])
     freqs = freqs_certain_paper[2]
     for iss in freqs:
         print iss, len(freqs[iss])
