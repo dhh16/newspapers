@@ -69,6 +69,6 @@ def hfst_words(wordlist):
             if rest:
                 rsplit = rest.split(']')
                 if rsplit[0] and rsplit[0][1:].startswith("WORD_ID"):
-                    out.append(rsplit[0][7:])
+                    out.append(rsplit[0][9:])
     pr.close()
     return out
