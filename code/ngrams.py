@@ -1,6 +1,7 @@
 # import sys
 import os
 import nltk
+import re
 from codecs import open
 # from operator import itemgetter
 # import numpy as np
@@ -37,10 +38,11 @@ def token_func(input_string):
     refined_tokens = []
     # lemmatized_tokens = []
     stopwordlist = get_stopwordlist("../data/first_stopwordlist.txt")
+    regex = re.compile('[^1-9a-zA-Z]')
 
     for token in tokens:
         if len(token) > 3:
-            token
+            token = regex.sub('', token)
             long_tokens.append(token)
 
     lemmatized_tokens = dhh_preprocess_tools.hfst_words(long_tokens,
