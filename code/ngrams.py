@@ -33,12 +33,25 @@ def get_stopwordlist(input_file):
 
 def token_func(input_string):
     tokens = nltk.word_tokenize(input_string.lower())
+    long_tokens = []
     refined_tokens = []
+    # lemmatized_tokens = []
     stopwordlist = get_stopwordlist("../data/first_stopwordlist.txt")
+
     for token in tokens:
         if len(token) > 3:
-            if token not in stopwordlist:
-                refined_tokens.append(token)
+            token
+            long_tokens.append(token)
+
+    lemmatized_tokens = dhh_preprocess_tools.hfst_words(long_tokens,
+                                                        filter=('VERB',
+                                                                'NOUN',
+                                                                'ADJ',
+                                                                'PROPN'))
+
+    for token in lemmatized_tokens:
+        if token not in stopwordlist:
+            refined_tokens.append(token)
     return refined_tokens
 
 
@@ -80,8 +93,8 @@ def read_files_from_textfile_to_list(file_list_textfile):
 
 def string_from_list(file_list):
     results_string = ""
-    for item in file_list:
-        print "\nprocessing item: " + item
+    for ind, item in enumerate(file_list):
+        print "\nprocessing item n. " + str(ind) + ": " + item
         # file3 = item
         results_string += read_file_to_string(item)
     return results_string
@@ -93,14 +106,14 @@ output_file = "test_output.txt"
 
 print "\nprocessing immigration testdata\n"
 
-training_articles = read_files_from_textfile_to_list("../data/training_data_article_elements.txt")
+training_articles = read_files_from_textfile_to_list("../data/training_data_nonpage_elements.txt")
 
 input_string1 = string_from_list(training_articles)
 tokens1 = token_func(input_string1)
-lemmatized_tokens1 = dhh_preprocess_tools.hfst_words(tokens1,
-                                                     filter=('VERB', 'NOUN', 'ADJ', 'PROPN'))
-length_of_tokenlist1 = len(lemmatized_tokens1)
-diction1 = token_dict(lemmatized_tokens1)
+# lemmatized_tokens1 = dhh_preprocess_tools.hfst_words(tokens1,
+#                                                      filter=('VERB', 'NOUN', 'ADJ', 'PROPN'))
+length_of_tokenlist1 = len(tokens1)
+diction1 = token_dict(tokens1)
 final_diction1 = token_percentage(diction1, length_of_tokenlist1)
 print final_diction1
 
@@ -121,14 +134,14 @@ input_string3 = string_from_list(base_articles)
 print "\ntokenizing..."
 tokens3 = token_func(input_string3)
 print "\nadding first tokens to this one..."
-tokens3.extend(lemmatized_tokens1)
-lemmatized_tokens3 = dhh_preprocess_tools.hfst_words(tokens3,
-                                                     filter=('VERB', 'NOUN', 'ADJ', 'PROPN'))
+# lemmatized_tokens3 = dhh_preprocess_tools.hfst_words(tokens3,
+#                                                      filter=('VERB', 'NOUN', 'ADJ', 'PROPN'))
+tokens3.extend(tokens1)
 print "\ncounting length: "
-length_of_tokenlist3 = len(lemmatized_tokens3)
+length_of_tokenlist3 = len(tokens3)
 print ("\n" + str(length_of_tokenlist3) + " tokens")
 print "\ncreating dictionary..."
-diction3 = token_dict(lemmatized_tokens3)
+diction3 = token_dict(tokens3)
 print "\ncalculating percentages..."
 final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 
