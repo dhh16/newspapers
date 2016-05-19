@@ -96,8 +96,9 @@ def read_files_from_textfile_to_list(file_list_textfile):
 def string_from_list(file_list):
     results_string = ""
     for ind, item in enumerate(file_list):
-        print "\nprocessing item n. " + str(ind) + ": " + item
-        # file3 = item
+        if ind % 10 == 0:
+            print "\nprocessing item n. " + str(ind) + ": " + item
+            # file3 = item
         results_string += read_file_to_string(item)
     return results_string
 
@@ -163,13 +164,13 @@ final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 
 def get_differences_dict(training_dict, base_dict):
     differences_dict = {}
-    for key in final_diction1:
+    for key in training_dict:
         # filter out less than 5
-        if final_diction1[key] > 5:
-            if key in final_diction3:
-                difference = round(((final_diction1[key][1]) / (final_diction3[key][1])), 5)
-                count_in_1 = final_diction1[key][0]
-                count_in_2 = final_diction3[key][0]
+        if training_dict[key][0] > 5:
+            if key in base_dict:
+                difference = round(((training_dict[key][1]) / (base_dict[key][1])), 5)
+                count_in_1 = training_dict[key][0]
+                count_in_2 = base_dict[key][0]
                 differences_dict[key] = [difference, count_in_1, count_in_2]
     return differences_dict
 
