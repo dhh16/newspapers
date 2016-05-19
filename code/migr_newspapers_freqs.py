@@ -38,7 +38,7 @@ def frequencies_newspapers(migr_paths, years, element, papers=None):
         if iss not in newspapers_yearly_migr_elems:
             if not papers or (papers and iss in papers):
                 newspapers_yearly_migr_elems[iss] = np.zeros(years.shape)
-        newspapers_yearly_migr_elems[iss][year-start_year] += 1
+            newspapers_yearly_migr_elems[iss][year-start_year] += 1
 
     for iss in newspapers_yearly_migr_elems:
         n_years = n_elements_by_newspaper(years, iss, element)
