@@ -31,6 +31,7 @@ def lemmatized_contents_file(filepath):
     """
     Lemmatizes filepath with las and returns lemmatized contents as a string.
     """
+    workdir_check()
     year, iss, date, number, date_number, item = get_info_for_item(filepath)
     tempfilepath = workdir+item+".txt"
     shutil.copy(filepath, tempfilepath)
@@ -38,6 +39,7 @@ def lemmatized_contents_file(filepath):
 
 
 def lemmatized_contents_str(string):
+    workdir_check()
     tempfilepath = workdir + "tmp_lemma_str"
     with codecs.open(tempfilepath, 'w', encoding="utf-8") as f:
         f.write(string)
