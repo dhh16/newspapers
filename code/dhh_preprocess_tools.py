@@ -76,8 +76,7 @@ def hfst_words(wordlist, filter=None):
                 if rsplit[0] and rsplit[0][1:].startswith("WORD_ID"):
                     lemma = rsplit[0][9:].decode('utf8')
                     if filter and rsplit[1] and rsplit[1][1:].startswith("UPO"):
-                        filter = filter.lower()
-                        if rsplit[0][6:].lower() in filter:
+                        if rsplit[1][6:] in filter:
                             out.append(lemma)
                     else:
                         out.append(lemma)
