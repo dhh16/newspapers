@@ -164,11 +164,13 @@ final_diction3 = token_percentage(diction3, length_of_tokenlist3)
 def get_differences_dict(training_dict, base_dict):
     differences_dict = {}
     for key in final_diction1:
-        if key in final_diction3:
-            difference = round(((final_diction1[key][1]) / (final_diction3[key][1])), 5)
-            count_in_1 = final_diction1[key][0]
-            count_in_2 = final_diction3[key][0]
-            differences_dict[key] = [difference, count_in_1, count_in_2]
+        # filter out less than 5
+        if final_diction1[key] > 5:
+            if key in final_diction3:
+                difference = round(((final_diction1[key][1]) / (final_diction3[key][1])), 5)
+                count_in_1 = final_diction1[key][0]
+                count_in_2 = final_diction3[key][0]
+                differences_dict[key] = [difference, count_in_1, count_in_2]
     return differences_dict
 
 
