@@ -1,4 +1,4 @@
 
-import article_probability_vmods
+import article_probability
 
-article_probability_vmods.article_prob()
+article_probability.article_prob()
