@@ -23,6 +23,7 @@ def n_elements_by_newspaper(years, newspaper, element):
 
 def amount_newspapers_yearly(migr_paths, years, element, papers=None):
     newspapers_yearly_all_elems = {}
+    newspapers_yearly_migr_elems = {}
     for path in migr_paths:
         year, iss, date, number, date_number, item = get_info_for_item(path)
         year = int(year)
