@@ -77,7 +77,7 @@ def string_from_list(file_list):
 
 def article_prob():
     out_f5 = open("Final", 'w')
-    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1887_3.txt")
+    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1887_4.txt")
     # i = 0
     for in_list in input_article_list:
         input_string_article = ""
@@ -89,7 +89,7 @@ def article_prob():
             out_f.write(item.encode('utf8') + "\n")
         out_f.close()
         in_string = read_file_to_string(
-            "../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
+            "../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative_2nd_round.txt")
         in_token = token_func(in_string)
         le = len(article_token)
         # lab = in_token[1].split(",")
@@ -115,7 +115,7 @@ def article_prob():
 
 
 def write_final_human_readable_textfilelinks():
-    out_final_readable = open("../data/cr_1887_3.txt", "w")
+    out_final_readable = open("../data/cr_1887_4.txt", "w")
     f = open("Final", "r")
     answer = {}
     for line in f:
@@ -152,7 +152,7 @@ def write_final_human_readable_textfilelinks():
 
 
 def write_final_machine_readable():
-    out_final_machine = open("../data/mr_1887_3.txt", "w")
+    out_final_machine = open("../data/mr_1887_4.txt", "w")
     f = open("Final", "r")
     answer = {}
     for line in f:
