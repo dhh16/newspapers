@@ -72,6 +72,7 @@ def frequencies_newspapers_sample(migr_paths, sample_paths, years, element, pape
 
 if __name__ == "__main__":
     migration_element_paths_file = sys.argv[1]
+    sample_paths_file = sys.argv[2]
 
     start_year = 1870
     end_year = 1910
@@ -87,6 +88,9 @@ if __name__ == "__main__":
     with open(migration_element_paths_file, 'r') as f:
         migr_paths = [l.strip() for l in f]
 
+    with open(sample_paths_file, 'r') as f:
+        sample_paths = [l.strip() for l in f]
+
     #info_all_data_papers = frequencies_newspapers_whole(migr_paths, years, element)
     #freqs = info_all_data_papers[2]
     #freqs_certain_paper = frequencies_newspapers_whole(migr_paths, years, element, nuor)
@@ -94,7 +98,7 @@ if __name__ == "__main__":
     nuor = ['0355-2047','1458-2619','1458-8595','0356-1356']
     vanha = ['1457-4721','0355-6913','1458-090X','1458-0535','1458-0543']
 
-    freq_all = frequencies_newspapers_sample()
+    freq_all = frequencies_newspapers_sample(migr_paths, sample_paths, years, element)
 
     for iss in freqs:
         print iss, len(freqs[iss])
