@@ -62,6 +62,8 @@ def frequencies_newspapers_sample(migr_paths, sample_paths, years, element, pape
     element: e.g. "article"
     papers: select only these papers (iterable)
     """
+    print "n migr", len(migr_paths)
+    print "n sample", len(sample_paths)
     n_mig =amount_newspapers_yearly(migr_paths, years, element, papers)
     newspapers_yearly_migr_elems = n_mig
     newspapers_yearly_all_elems = {}
