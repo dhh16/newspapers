@@ -109,7 +109,7 @@ output_file = "test_output.txt"
 
 print "\nprocessing immigration testdata\n"
 
-training_articles = read_files_from_textfile_to_list("../data/training_data_nonpage_elements.txt")
+training_articles = read_files_from_textfile_to_list("../data/training_new_round.txt")
 
 input_string1 = string_from_list(training_articles)
 tokens1 = token_func(input_string1)
@@ -237,6 +237,6 @@ def write_raw_freqs_machine(output_file):
 
 
 print "\nwriting top 500 into outputfile\n"
-write_pretty_output("humanreadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
-write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
-write_raw_freqs_machine("machinereadable_output_file_500_stopwords_filtered_lemmatized_raw_freqs.txt")
+write_pretty_output("humanreadable_output_file_500_stopwords_filtered_lemmatized_relative_2nd_round.txt")
+write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered_lemmatized_relative_2nd_round.txt")
+write_raw_freqs_machine("machinereadable_output_file_500_stopwords_filtered_lemmatized_raw_freqs_2nd_round.txt")
