@@ -24,9 +24,11 @@ def n_elements_by_newspaper(years, newspaper, element):
 def amount_newspapers_yearly(migr_paths, years, element, papers=None):
     newspapers_yearly_all_elems = {}
     newspapers_yearly_migr_elems = {}
+    print "amount_yearly"
     for path in migr_paths:
         year, iss, date, number, date_number, item = get_info_for_item(path)
         year = int(year)
+        print iss, year
         if year not in years:
             continue
         if papers and iss not in papers:
@@ -67,6 +69,7 @@ def frequencies_newspapers_sample(migr_paths, sample_paths, years, element, pape
 
     for iss in newspapers_yearly_migr_elems:
         n_all = amount_newspapers_yearly(sample_paths, years, element, papers)
+        print n_all
         newspapers_yearly_all_elems[iss] = n_all
         newspapers_yearly_migr_freq[iss] = newspapers_yearly_migr_elems[iss]/n_all
     return newspapers_yearly_all_elems, newspapers_yearly_migr_elems, newspapers_yearly_migr_freq
