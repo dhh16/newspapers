@@ -108,14 +108,16 @@ def article_prob():
             lll = 0
         out_ff = unicode(in_list + "\t" + "," + str(lll))
         out_f5.write(out_ff.encode("utf") + "\n")
-    write_Final_readable()
+    # write_final_readable()
+    write_final_readable_textfilelinks()
 
-def write_Final_readable():
+
+def write_final_readable():
     out_final_readable = open("Final_hyperlink.txt", "w")
     out_final_machine = open("Final_machinereadable.txt", "w")
     f = open("Final", "r")
     answer = {}
-    sorted_list2 = {}
+    # sorted_list2 = {}
     for line in f:
         k, v = line.strip().split(",")
         answer[k.strip()] = v.strip()
