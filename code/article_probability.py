@@ -173,7 +173,7 @@ def write_final_readable_textfilelinks():
                           "86.50.168.175" + (sorted_list[j][0])[4:] + "\n" +
                           "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") + "\n")
-    out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
-    out_final_machine.write(out_machine.encode("utf") + "\n")
+        out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
+        out_final_machine.write(out_machine.encode("utf") + "\n")
     out_final_readable.close()
     out_final_machine.close()
