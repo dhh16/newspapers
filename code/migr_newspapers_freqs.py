@@ -65,13 +65,13 @@ def frequencies_newspapers_sample(migr_paths, sample_paths, years, element, pape
     print "n migr", len(migr_paths)
     print "n sample", len(sample_paths)
     n_mig =amount_newspapers_yearly(migr_paths, years, element, papers)
+    print n_mig.keys()
     newspapers_yearly_migr_elems = n_mig
     newspapers_yearly_all_elems = {}
     newspapers_yearly_migr_freq = {}
 
     for iss in newspapers_yearly_migr_elems:
         n_all = amount_newspapers_yearly(sample_paths, years, element, papers)
-        print n_all
         newspapers_yearly_all_elems[iss] = n_all
         newspapers_yearly_migr_freq[iss] = newspapers_yearly_migr_elems[iss]/n_all
     return newspapers_yearly_all_elems, newspapers_yearly_migr_elems, newspapers_yearly_migr_freq
