@@ -113,7 +113,10 @@ if __name__ == "__main__":
         data = np.column_stack([years, freqs[iss]])
         np.savetxt("migr" + iss + ".csv", data, delimiter=",")
     final_freqs = total_migr/total_all
-    np.savetxt("migr_total.csv",final_freqs,delimiter=",")
+    np.savetxt("migr_total_freqs.csv",final_freqs,delimiter=",")
+    np.savetxt("migr_total_all.csv",total_all,delimiter=",")
+    np.savetxt("migr_total_migr.csv",total_migr,delimiter=",")
+
 
 
 
