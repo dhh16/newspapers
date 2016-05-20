@@ -99,15 +99,21 @@ if __name__ == "__main__":
     vanha = ['1457-4721','0355-6913','1458-090X','1458-0535','1458-0543']
 
     freq_all = frequencies_newspapers_sample(migr_paths, sample_paths, years, element)
+    freqs = freq_all[2]
 
+    total_migr = np.zeros(years.shape)
+    total_all  = np.zeros(years.shape)
     for iss in freqs:
         print iss, len(freqs[iss])
         for i in xrange(len(freqs[iss])):
             print years[i], freqs[iss][i]
+            total_all[i] += freq_all[0][iss][i]
+            total_migr[i] += freq_all[1][iss][i]
 
         data = np.column_stack([years, freqs[iss]])
-        np.savetxt(iss + ".csv", data, delimiter=",")
-
+        np.savetxt("migr" + iss + ".csv", data, delimiter=",")
+    final_freqs = total_migr/total_all
+    np.savetxt("migr_total.csv",final_freqs,delimiter=",")
 
 
 
