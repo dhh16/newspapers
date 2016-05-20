@@ -230,13 +230,19 @@ def write_raw_freqs_machine(output_file):
     for item in results_list:
         outputline = unicode(item[0] + "," +
                              str(item[1][1]) + ", " +
-                             str(item[1][2])+ "\n")
+                             str(item[1][2]) + "\n")
 
         out_f.write(outputline.encode('utf8'))
     out_f.close()
 
 
 print "\nwriting top 500 into outputfile\n"
-write_pretty_output("humanreadable_output_file_500_stopwords_filtered_lemmatized_relative_2nd_round.txt")
-write_machinereadable_output("machinereadable_output_file_500_stopwords_filtered_lemmatized_relative_2nd_round.txt")
-write_raw_freqs_machine("machinereadable_output_file_500_stopwords_filtered_lemmatized_raw_freqs_2nd_round.txt")
+
+filesuffix = "3rd_round"
+
+write_pretty_output(
+    "hr_output_500_" + filesuffix + ".txt")
+write_machinereadable_output(
+    "mr_output_500_" + filesuffix + ".txt")
+write_raw_freqs_machine(
+    "mr_output_500_freqs" + filesuffix + ".txt")
