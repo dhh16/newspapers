@@ -78,7 +78,7 @@ def string_from_list(file_list):
 
 def article_prob():
     out_f5 = open("Final", 'w')
-    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1903_2.txt")
+    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1887_2.txt")
     # i = 0
     for in_list in input_article_list:
         input_string_article = ""
@@ -102,7 +102,7 @@ def article_prob():
                     out_f1.write(out_f_l.encode("utf") + "\n")
                     sumi = sumi + float(in_token[i].split(",")[1])
 
-        print "The final sum(values)/amount of is \n"
+        # print "The final sum(values)/amount of is \n"
         if le > 0:
             lll = sumi / le
         else:
@@ -111,11 +111,12 @@ def article_prob():
         out_f5.write(out_ff.encode("utf") + "\n")
     # write_final_readable()
     write_final_readable_textfilelinks()
+    write_final_machine_readable()
 
 
 def write_final_readable():
     out_final_readable = open("Final_hyperlink.txt", "w")
-    out_final_machine = open("Final_machinereadable.txt", "w")
+    out_final_machine = open("../data/mr_1903_2.txt", "w")
     f = open("Final", "r")
     answer = {}
     # sorted_list2 = {}
@@ -156,11 +157,10 @@ def write_final_readable():
 
 
 def write_final_readable_textfilelinks():
-    out_final_readable = open("../data/cr_1903_2.txt", "w")
-    out_final_machine = open("../data/mr_1903_2.txt", "w")
+    out_final_readable = open("../data/cr_1887_2.txt", "w")
+    # out_final_machine = open("../data/mr_1903_2.txt", "w")
     f = open("Final", "r")
     answer = {}
-    # sorted_list2 = {}
     for line in f:
         k, v = line.strip().split(",")
         answer[k.strip()] = v.strip()
@@ -168,12 +168,48 @@ def write_final_readable_textfilelinks():
     sorted_list = sorted(answer.items(), key=lambda i: i[1], reverse=True)
     shortened_list = sorted_list[:50]
     for j in range(0, len(shortened_list)):
+        start = sorted_list[j][0].find("extracted")
+        end_sup = sorted_list[j][0].find("supplement")
+        end_sec = sorted_list[j][0].find("section")
+        if end_sup > 0:
+            xmml_path = (sorted_list[j][0][:start] +
+                         "alto" + sorted_list[j][0][start + 9:end_sup] +
+                         "001.xml")
+        elif end_sec > 0:
+            xmml_path = (sorted_list[j][0][:start] +
+                         "alto" + sorted_list[j][0][start + 9:end_sec] +
+                         "001.xml")
+        else:
+            end = sorted_list[j][0].find("article")
+            xmml_path = (sorted_list[j][0][:start] +
+                         "alto" + sorted_list[j][0][start + 9:end] +
+                         "001.xml")
+        e = ET.parse(xmml_path).getroot()
         out_xff = unicode("Serial Number = " + str(j) +
                           "\n" + str(sorted_list[j][1]) + "\n" +
                           "86.50.168.175" + (sorted_list[j][0])[4:] + "\n" +
+                          e[0][16].text + "\n" +
                           "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") + "\n")
+        # out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
+        # out_final_machine.write(out_machine.encode("utf") + "\n")
+    out_final_readable.close()
+    # out_final_machine.close()
+
+
+def write_final_machine_readable():
+    out_final_machine = open("../data/mr_1887_2.txt", "w")
+    f = open("Final", "r")
+    answer = {}
+    for line in f:
+        k, v = line.strip().split(",")
+        answer[k.strip()] = v.strip()
+    f.close()
+    sorted_list = sorted(answer.items(), key=lambda i: float(i[1]), reverse=True)
+    for j in range(0, len(sorted_list)):
+
         out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
         out_final_machine.write(out_machine.encode("utf") + "\n")
-    out_final_readable.close()
+
+    # out_final_readable.close()
     out_final_machine.close()
