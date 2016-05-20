@@ -109,7 +109,7 @@ output_file = "test_output.txt"
 
 print "\nprocessing immigration testdata\n"
 
-training_articles = read_files_from_textfile_to_list("../data/training_new_round.txt")
+training_articles = read_files_from_textfile_to_list("../data/training_data_new_round.txt")
 
 input_string1 = string_from_list(training_articles)
 tokens1 = token_func(input_string1)
