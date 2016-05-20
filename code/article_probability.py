@@ -2,8 +2,7 @@
 import os
 import nltk
 from codecs import open
-import glob
-#nltk.download('punkt')
+# import glob
 import xml.etree.ElementTree as ET
 
 input_string = ""
@@ -78,7 +77,7 @@ def string_from_list(file_list):
 
 def article_prob():
     out_f5 = open("Final", 'w')
-    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1887_2.txt")
+    input_article_list = read_files_from_textfile_to_list("../data/3000_arts_1887_3.txt")
     # i = 0
     for in_list in input_article_list:
         input_string_article = ""
@@ -89,10 +88,11 @@ def article_prob():
         for item in article_token:
             out_f.write(item.encode('utf8') + "\n")
         out_f.close()
-        in_string = read_file_to_string("../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
+        in_string = read_file_to_string(
+            "../data/machinereadable_output_file_500_stopwords_filtered_lemmatized_relative.txt")
         in_token = token_func(in_string)
         le = len(article_token)
-        lab = in_token[1].split(",")
+        # lab = in_token[1].split(",")
         sumi = 0.0
         for item in article_token:
             for i in range(0, len(in_token) - 1):
@@ -110,55 +110,12 @@ def article_prob():
         out_ff = unicode(in_list + "\t" + "," + str(lll))
         out_f5.write(out_ff.encode("utf") + "\n")
     # write_final_readable()
-    write_final_readable_textfilelinks()
+    write_final_human_readable_textfilelinks()
     write_final_machine_readable()
 
 
-def write_final_readable():
-    out_final_readable = open("Final_hyperlink.txt", "w")
-    out_final_machine = open("../data/mr_1903_2.txt", "w")
-    f = open("Final", "r")
-    answer = {}
-    # sorted_list2 = {}
-    for line in f:
-        k, v = line.strip().split(",")
-        answer[k.strip()] = v.strip()
-    f.close()
-    sorted_list = sorted(answer.items(), key=lambda i: float(i[1]), reverse=True)
-    for j in range(0, len(sorted_list)):
-        start = sorted_list[j][0].find("extracted")
-        end_sup = sorted_list[j][0].find("supplement")
-        end_sec = sorted_list[j][0].find("section")
-        if end_sup > 0:
-            xmml_path = (sorted_list[j][0][:start] +
-                         "alto" + sorted_list[j][0][start + 9:end_sup] +
-                         "001.xml")
-        elif end_sec > 0:
-            xmml_path = (sorted_list[j][0][:start] +
-                         "alto" + sorted_list[j][0][start + 9:end_sec] +
-                         "001.xml")
-        else:
-            end = sorted_list[j][0].find("article")
-            xmml_path = (sorted_list[j][0][:start] +
-                         "alto" + sorted_list[j][0][start + 9:end] +
-                         "001.xml")
-        e = ET.parse(xmml_path).getroot()
-        out_xff = unicode("Serial Number = " + str(j) + "\n" +
-                          e[0][16].text + "\n" + str(sorted_list[j][1]) +
-                          "\n" + sorted_list[j][0] + "\n" +
-                          "********************************" + "\n")
-        out_final_readable.write(out_xff.encode("utf") + "\n")
-
-        out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
-        out_final_machine.write(out_machine.encode("utf") + "\n")
-
-    out_final_readable.close()
-    out_final_machine.close()
-
-
-def write_final_readable_textfilelinks():
-    out_final_readable = open("../data/cr_1887_2.txt", "w")
-    # out_final_machine = open("../data/mr_1903_2.txt", "w")
+def write_final_human_readable_textfilelinks():
+    out_final_readable = open("../data/cr_1887_3.txt", "w")
     f = open("Final", "r")
     answer = {}
     for line in f:
@@ -191,14 +148,11 @@ def write_final_readable_textfilelinks():
                           e[0][16].text + "\n" +
                           "********************************" + "\n")
         out_final_readable.write(out_xff.encode("utf") + "\n")
-        # out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
-        # out_final_machine.write(out_machine.encode("utf") + "\n")
     out_final_readable.close()
-    # out_final_machine.close()
 
 
 def write_final_machine_readable():
-    out_final_machine = open("../data/mr_1887_2.txt", "w")
+    out_final_machine = open("../data/mr_1887_3.txt", "w")
     f = open("Final", "r")
     answer = {}
     for line in f:
@@ -211,5 +165,4 @@ def write_final_machine_readable():
         out_machine = sorted_list[j][0] + "," + str(sorted_list[j][1])
         out_final_machine.write(out_machine.encode("utf") + "\n")
 
-    # out_final_readable.close()
     out_final_machine.close()
